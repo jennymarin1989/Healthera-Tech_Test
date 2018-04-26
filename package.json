@@ -4,7 +4,8 @@
   "private": true,
   "dependencies": {
     "hoek": "^5.0.3",
-    "react": "^16.3.2",
+    "react": "^16.0.0",
+    "react-bootstrap": "^0.32.1",
     "react-scripts": "1.1.4"
   },
   "scripts": {
@@ -17,7 +18,7 @@
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
     "jest-cli": "^20.0.4",
-    "react-dom": "^16.3.2",
+    "react-dom": "^16.0.0",
     "react-test-render": "^1.1.1"
   }
 }
