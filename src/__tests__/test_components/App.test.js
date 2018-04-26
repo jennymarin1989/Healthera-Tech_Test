@@ -8,6 +8,6 @@ describe('App', () => {
 	let app = shallow(<App />);
 
 	it('renders correctly', () => {
-		expect(app).toMatchSnaptshot();
+		expect(app).toMatchSnapshot();
 	});	
 });
