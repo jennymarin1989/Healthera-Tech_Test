@@ -7,6 +7,7 @@ class App extends Component {
         return(
             <div>
                <Header header={"Healthera"}/> 
+							 <SubmitButton />
             </div>
         ) 
     }
