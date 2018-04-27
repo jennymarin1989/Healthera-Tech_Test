@@ -10,4 +10,10 @@ describe("Patients", () => {
        expect(patients).toMatchSnapshot();
    }) ;
 
+ describe("renders correctly", () => {
+   it("render header component correctly", () => {
+       expect(patients.find('Header').exists()).toBe(true);
+   });
+ });  
+
 });
