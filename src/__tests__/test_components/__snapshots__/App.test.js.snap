@@ -25,6 +25,7 @@ ShallowWrapper {
           handlePortalClicked={[Function]}
           name="Patient Portal"
 />,
+        null,
       ],
     },
     "ref": null,
@@ -52,6 +53,7 @@ ShallowWrapper {
         "rendered": null,
         "type": [Function],
       },
+      null,
     ],
     "type": "div",
   },
@@ -69,6 +71,7 @@ ShallowWrapper {
             handlePortalClicked={[Function]}
             name="Patient Portal"
 />,
+          null,
         ],
       },
       "ref": null,
@@ -96,6 +99,7 @@ ShallowWrapper {
           "rendered": null,
           "type": [Function],
         },
+        null,
       ],
       "type": "div",
     },

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Header from './Header';
 import SubmitButton from './SubmitButton';
+import Patients from './Patients';
 
 class App extends Component {
 
@@ -26,6 +27,10 @@ class App extends Component {
 					name={"Patient Portal"}
 					handlePortalClicked = {this.handlePortalClicked}
 				  />
+				  {this.state.PatientPortal ? 
+						<Patients />:
+						null	
+					}
          </div>
         ) 
     }

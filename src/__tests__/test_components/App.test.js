@@ -33,6 +33,13 @@ describe('App', () => {
 		it("renders SubmitButton correctly", () => {
 			expect(app.find('SubmitButton').exists()).toBe(true);
 		});
+
+		it("renders Patients correctly if PatientPortal state updated successfully", () => {
+			app.find('#submitButton').simulate('click');
+			app.instance().handlePortalClicked();
+			expect(app.state('PatientPortal')).toEqual(true);
+			expect(app.find('Patients').exists()).toBe(true);
+		})
 	});
 
 });
