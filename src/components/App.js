@@ -19,14 +19,14 @@ class App extends Component {
 	};
 
     render(){ 
-        return(
-            <div>
-               <Header header={"Healthera"}/> 
-							 <SubmitButton 
-								 name={"Patient Portal"}
-								 handlePortalClicked = {this.handlePortalClicked}
-							 />
-            </div>
+     return(
+         <div>
+            <Header header={"Healthera"}/> 
+				 <SubmitButton 
+					name={"Patient Portal"}
+					handlePortalClicked = {this.handlePortalClicked}
+				  />
+         </div>
         ) 
     }
 }
