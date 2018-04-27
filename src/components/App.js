@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Header from './Header';
+import SubmitButton from './SubmitButton';
 
 class App extends Component {
 
@@ -7,7 +8,10 @@ class App extends Component {
         return(
             <div>
                <Header header={"Healthera"}/> 
-							 <SubmitButton />
+							 <SubmitButton 
+								 name={"Patient Portal"}
+								 handleDataSubmitted = {this.handleClick}
+							 />
             </div>
         ) 
     }
