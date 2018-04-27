@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import Patients from '../../Patients';
+import Patients from '../../components/Patients';
 
 describe("Patients", () => {
 
