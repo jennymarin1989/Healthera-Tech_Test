@@ -13,7 +13,7 @@ describe("SubmitButton", () => {
 	describe('When a user clicks a button', () => {
 		it('should call the handleDataSumittedButton function', ()=>{
 			let mockDataSubmitted = jest.fn()
-			let submit = shallow(<SubmitButton handleDataSubmitted = {mockDataSubmitted}/>);
+			let submit = shallow(<SubmitButton handlePortalClicked = {mockhanldePortalClicked}/>);
 			submit.find('#submitButton').simulate('click');
 			expect(mockDataSubmitted).toBeCalled();
 		})

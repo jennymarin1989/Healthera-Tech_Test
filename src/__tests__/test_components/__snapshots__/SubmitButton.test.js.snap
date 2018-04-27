@@ -19,7 +19,7 @@ ShallowWrapper {
     "props": Object {
       "children": undefined,
       "id": "submitButton",
-      "onclick": undefined,
+      "onClick": undefined,
     },
     "ref": null,
     "rendered": null,
@@ -33,7 +33,7 @@ ShallowWrapper {
       "props": Object {
         "children": undefined,
         "id": "submitButton",
-        "onclick": undefined,
+        "onClick": undefined,
       },
       "ref": null,
       "rendered": null,
