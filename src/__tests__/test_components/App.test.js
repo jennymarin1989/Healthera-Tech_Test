@@ -4,6 +4,7 @@ import App from '../../components/App';
 
 
 describe('App', () => {
+	
 	let app = shallow(<App />);
 
 	it('renders correctly', () => {
@@ -11,6 +12,14 @@ describe('App', () => {
 	});	
 
 	describe('Rendering components', () => {
-		expect(app.find('Header').exists()).toBe(true);
-	})
+
+		it("renders Header component correctly", () => {
+			expect(app.find('Header').exists()).toBe(true);
+		});
+
+		it("renders SubmitButton correctly", () => {
+			expect(app.find('SubmitButton').exists()).toBe(true);
+		});
+	});
+
 });

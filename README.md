@@ -43,7 +43,7 @@ MVP:
 <img src="https://user-images.githubusercontent.com/29259526/39366580-3b2e3358-4a2c-11e8-91fb-36c77216bba9.png" width="500" ="align-center">
 </p>
 
-So, having an idea of my MVP and the requirements, I have started to plan the implementation of the app using react and jest as a testing framework and I looked at some online to turorial to get confident with react again.
+So, having an idea of my MVP and the requirements, I have started to plan the implementation of the app using react and jest as a testing framework and I looked at some online turorial to get confident with react again.
 
 At this stage, I've been following TDD and I've created basic tests to render a basic component like header. My idea is to reuse react components to keep my code DRY.
 
