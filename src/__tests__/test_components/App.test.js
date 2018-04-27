@@ -11,6 +11,19 @@ describe('App', () => {
 		expect(app).toMatchSnapshot();
 	});	
 
+	describe("Initializes state successfully",()=> {
+		it("initializes PatientPortal as false", () => {
+				expect(app.state('PatientPortal')).toEqual(false);
+			});
+	});
+
+	describe("Updates state  successfylly", ()=>{
+		it("Changes PatientPortal state to true", ()=>{
+			app.instance().handlePortalClicked();
+			expect(app.state('PatientPortal')).toEqual(true);
+		});
+	});
+
 	describe('Rendering components', () => {
 
 		it("renders Header component correctly", () => {
