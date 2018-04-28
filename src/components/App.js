@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Header from './Header';
 import SubmitButton from './SubmitButton';
-import Patients from './Patients';
+import Patients from './Patients'
 
 class App extends Component {
 

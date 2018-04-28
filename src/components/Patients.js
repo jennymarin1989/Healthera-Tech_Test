@@ -1,14 +1,21 @@
-import React from 'react';
+import React, { Component} from 'react';
 import Header from './Header';
+import data from '../data.json';
 
-
-const Patients = () =>{
-
-    return (
-        <div>
-           <Header header = {"Patients"}/> 
-        </div>    
-    )
+class Patients extends Component {
+	render(){
+		return (
+			<div>
+				 <Header header = {"Patients"}/> 
+				 <ul>
+						 {
+							data.map(function(patient){
+								return <li> {patient.id}: {patient.name}  </li>  
+							})
+						 }
+				 </ul>    
+			</div>    
+	)};  
 };
 
 export default Patients;

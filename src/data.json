@@ -1,4 +1,4 @@
-[{"id":1, "Patient":"John Smith"},
- {"id":2, "Patient":"Claire Davis"},
- {"id":3, "Patient":"Mary Lopez"},
- {"id":4, "Patient":"Joseph Mull"}]
+[{"id":1, "name":"John Smith"},
+ {"id":2, "name":"Claire Davis"},
+ {"id":3, "name":"Mary Lopez"},
+ {"id":4, "name":"Joseph Mull"}]
