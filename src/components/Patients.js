@@ -3,6 +3,15 @@ import Header from './Header';
 import data from '../data.json';
 
 class Patients extends Component {
+
+	constructor(){
+		super();
+		this.state ={
+			selectedOption: [0],
+		}
+	}
+
+
 	render(){
 		return (
 			<div>
