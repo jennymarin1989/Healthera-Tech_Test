@@ -2,6 +2,7 @@ import React, { Component} from 'react';
 import Dropdown from 'react-dropdown';
 import 'react-dropdown/style.css';
 import Header from './Header';
+import Message from './Message';
 import data from '../data.json';
 
 
@@ -34,6 +35,7 @@ class Patients extends Component {
 						 value = {defaultOption}
 						 placeholder = "Search for a patient"
 						 />
+				 <Message />		 
 			</div>    
 	)};  
 };
