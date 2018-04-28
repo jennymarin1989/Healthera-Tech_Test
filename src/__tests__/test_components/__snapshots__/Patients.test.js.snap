@@ -22,34 +22,18 @@ ShallowWrapper {
           header="Patients"
 />,
         <ul>
-          <li>
-                     
-                    1
-                    : 
+          <h3>
                     John Smith
-                      
-          </li>
-          <li>
-                     
-                    2
-                    : 
+          </h3>
+          <h3>
                     Claire Davis
-                      
-          </li>
-          <li>
-                     
-                    3
-                    : 
+          </h3>
+          <h3>
                     Mary Lopez
-                      
-          </li>
-          <li>
-                     
-                    4
-                    : 
+          </h3>
+          <h3>
                     Joseph Mull
-                      
-          </li>
+          </h3>
 </ul>,
       ],
     },
@@ -72,129 +56,65 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            <li>
-               
-              1
-              : 
+            <h3>
               John Smith
-                
-</li>,
-            <li>
-               
-              2
-              : 
+</h3>,
+            <h3>
               Claire Davis
-                
-</li>,
-            <li>
-               
-              3
-              : 
+</h3>,
+            <h3>
               Mary Lopez
-                
-</li>,
-            <li>
-               
-              4
-              : 
+</h3>,
+            <h3>
               Joseph Mull
-                
-</li>,
+</h3>,
           ],
         },
         "ref": null,
         "rendered": Array [
           Object {
             "instance": null,
-            "key": undefined,
+            "key": "1",
             "nodeType": "host",
             "props": Object {
-              "children": Array [
-                " ",
-                1,
-                ": ",
-                "John Smith",
-                "  ",
-              ],
+              "children": "John Smith",
             },
             "ref": null,
-            "rendered": Array [
-              " ",
-              1,
-              ": ",
-              "John Smith",
-              "  ",
-            ],
-            "type": "li",
+            "rendered": "John Smith",
+            "type": "h3",
           },
           Object {
             "instance": null,
-            "key": undefined,
+            "key": "2",
             "nodeType": "host",
             "props": Object {
-              "children": Array [
-                " ",
-                2,
-                ": ",
-                "Claire Davis",
-                "  ",
-              ],
+              "children": "Claire Davis",
             },
             "ref": null,
-            "rendered": Array [
-              " ",
-              2,
-              ": ",
-              "Claire Davis",
-              "  ",
-            ],
-            "type": "li",
+            "rendered": "Claire Davis",
+            "type": "h3",
           },
           Object {
             "instance": null,
-            "key": undefined,
+            "key": "3",
             "nodeType": "host",
             "props": Object {
-              "children": Array [
-                " ",
-                3,
-                ": ",
-                "Mary Lopez",
-                "  ",
-              ],
+              "children": "Mary Lopez",
             },
             "ref": null,
-            "rendered": Array [
-              " ",
-              3,
-              ": ",
-              "Mary Lopez",
-              "  ",
-            ],
-            "type": "li",
+            "rendered": "Mary Lopez",
+            "type": "h3",
           },
           Object {
             "instance": null,
-            "key": undefined,
+            "key": "4",
             "nodeType": "host",
             "props": Object {
-              "children": Array [
-                " ",
-                4,
-                ": ",
-                "Joseph Mull",
-                "  ",
-              ],
+              "children": "Joseph Mull",
             },
             "ref": null,
-            "rendered": Array [
-              " ",
-              4,
-              ": ",
-              "Joseph Mull",
-              "  ",
-            ],
-            "type": "li",
+            "rendered": "Joseph Mull",
+            "type": "h3",
           },
         ],
         "type": "ul",
@@ -213,34 +133,18 @@ ShallowWrapper {
             header="Patients"
 />,
           <ul>
-            <li>
-                         
-                        1
-                        : 
+            <h3>
                         John Smith
-                          
-            </li>
-            <li>
-                         
-                        2
-                        : 
+            </h3>
+            <h3>
                         Claire Davis
-                          
-            </li>
-            <li>
-                         
-                        3
-                        : 
+            </h3>
+            <h3>
                         Mary Lopez
-                          
-            </li>
-            <li>
-                         
-                        4
-                        : 
+            </h3>
+            <h3>
                         Joseph Mull
-                          
-            </li>
+            </h3>
 </ul>,
         ],
       },
@@ -263,129 +167,65 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": Array [
-              <li>
-                 
-                1
-                : 
+              <h3>
                 John Smith
-                  
-</li>,
-              <li>
-                 
-                2
-                : 
+</h3>,
+              <h3>
                 Claire Davis
-                  
-</li>,
-              <li>
-                 
-                3
-                : 
+</h3>,
+              <h3>
                 Mary Lopez
-                  
-</li>,
-              <li>
-                 
-                4
-                : 
+</h3>,
+              <h3>
                 Joseph Mull
-                  
-</li>,
+</h3>,
             ],
           },
           "ref": null,
           "rendered": Array [
             Object {
               "instance": null,
-              "key": undefined,
+              "key": "1",
               "nodeType": "host",
               "props": Object {
-                "children": Array [
-                  " ",
-                  1,
-                  ": ",
-                  "John Smith",
-                  "  ",
-                ],
+                "children": "John Smith",
               },
               "ref": null,
-              "rendered": Array [
-                " ",
-                1,
-                ": ",
-                "John Smith",
-                "  ",
-              ],
-              "type": "li",
+              "rendered": "John Smith",
+              "type": "h3",
             },
             Object {
               "instance": null,
-              "key": undefined,
+              "key": "2",
               "nodeType": "host",
               "props": Object {
-                "children": Array [
-                  " ",
-                  2,
-                  ": ",
-                  "Claire Davis",
-                  "  ",
-                ],
+                "children": "Claire Davis",
               },
               "ref": null,
-              "rendered": Array [
-                " ",
-                2,
-                ": ",
-                "Claire Davis",
-                "  ",
-              ],
-              "type": "li",
+              "rendered": "Claire Davis",
+              "type": "h3",
             },
             Object {
               "instance": null,
-              "key": undefined,
+              "key": "3",
               "nodeType": "host",
               "props": Object {
-                "children": Array [
-                  " ",
-                  3,
-                  ": ",
-                  "Mary Lopez",
-                  "  ",
-                ],
+                "children": "Mary Lopez",
               },
               "ref": null,
-              "rendered": Array [
-                " ",
-                3,
-                ": ",
-                "Mary Lopez",
-                "  ",
-              ],
-              "type": "li",
+              "rendered": "Mary Lopez",
+              "type": "h3",
             },
             Object {
               "instance": null,
-              "key": undefined,
+              "key": "4",
               "nodeType": "host",
               "props": Object {
-                "children": Array [
-                  " ",
-                  4,
-                  ": ",
-                  "Joseph Mull",
-                  "  ",
-                ],
+                "children": "Joseph Mull",
               },
               "ref": null,
-              "rendered": Array [
-                " ",
-                4,
-                ": ",
-                "Joseph Mull",
-                "  ",
-              ],
-              "type": "li",
+              "rendered": "Joseph Mull",
+              "type": "h3",
             },
           ],
           "type": "ul",
