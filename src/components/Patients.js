@@ -28,7 +28,12 @@ class Patients extends Component {
 		return (
 			<div>
 				 <Header header = {"Patients"}/> 
-				 
+				 <Dropdown  
+						 options = {data}
+						 onChange = {this.onSelectedPatient}
+						 value = {defaultOption}
+						 placeholder = "Select a patient"
+						 />
 			</div>    
 	)};  
 };
