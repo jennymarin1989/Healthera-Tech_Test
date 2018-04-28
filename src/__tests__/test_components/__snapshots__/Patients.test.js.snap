@@ -34,6 +34,7 @@ ShallowWrapper {
           placeholder="Search for a patient"
           value=""
 />,
+        <Message />,
       ],
     },
     "ref": null,
@@ -68,6 +69,15 @@ ShallowWrapper {
         "rendered": null,
         "type": [Function],
       },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
     ],
     "type": "div",
   },
@@ -94,6 +104,7 @@ ShallowWrapper {
             placeholder="Search for a patient"
             value=""
 />,
+          <Message />,
         ],
       },
       "ref": null,
@@ -124,6 +135,15 @@ ShallowWrapper {
             "placeholder": "Search for a patient",
             "value": "",
           },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {},
           "ref": null,
           "rendered": null,
           "type": [Function],

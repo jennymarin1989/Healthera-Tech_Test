@@ -2,7 +2,7 @@ import React from 'react';
 import { shallow } from 'enzyme';
 import toJson from 'enzyme-to-json';
 import Patients from '../../components/Patients';
-import Message from '../../components/Messages';
+import Message from '../../components/Message';
 
 describe("Patients", () => {
 
