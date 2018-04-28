@@ -5,6 +5,7 @@
   "dependencies": {
     "ajv": "^6.0.0",
     "hoek": "^5.0.3",
+    "jest-styled-components": "^5.0.1",
     "react": "^16.0.0",
     "react-addons-test-utils": "^15.6.2",
     "react-bootstrap": "^0.32.1",
@@ -12,7 +13,9 @@
     "react-scripts": "1.1.4",
     "react-select": "^2.0.0-beta.2",
     "react-selectfield": "0.0.4",
-    "react-shallow-testutils": "^3.0.1"
+    "react-shallow-testutils": "^3.0.1",
+    "react-test-renderer": "^16.3.2",
+    "styled-components": "^3.2.6"
   },
   "scripts": {
     "start": "react-scripts start",

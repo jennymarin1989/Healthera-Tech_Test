@@ -31,7 +31,7 @@ ShallowWrapper {
                               "Charles stock",
                             ]
           }
-          placeholder="Select a patient"
+          placeholder="Search for a patient"
           value=""
 />,
       ],
@@ -61,7 +61,7 @@ ShallowWrapper {
             "Helen Lopez",
             "Charles stock",
           ],
-          "placeholder": "Select a patient",
+          "placeholder": "Search for a patient",
           "value": "",
         },
         "ref": null,
@@ -91,7 +91,7 @@ ShallowWrapper {
                                     "Charles stock",
                                   ]
             }
-            placeholder="Select a patient"
+            placeholder="Search for a patient"
             value=""
 />,
         ],
@@ -121,7 +121,7 @@ ShallowWrapper {
               "Helen Lopez",
               "Charles stock",
             ],
-            "placeholder": "Select a patient",
+            "placeholder": "Search for a patient",
             "value": "",
           },
           "ref": null,

@@ -16,7 +16,7 @@ describe("Patients", () => {
 				 "Joseph Marin",
 				 "Mary Davies"
 			]
-        expect(toJson(patientInfo)).toMatchSnapshot();
+       expect(toJson(patientInfo)).toMatchSnapshot();
     });
 
  describe("renders correctly", () => {

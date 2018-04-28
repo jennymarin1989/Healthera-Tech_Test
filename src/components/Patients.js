@@ -32,7 +32,7 @@ class Patients extends Component {
 						 options = {data}
 						 onChange = {this.onSelectedPatient}
 						 value = {defaultOption}
-						 placeholder = "Select a patient"
+						 placeholder = "Search for a patient"
 						 />
 			</div>    
 	)};  
