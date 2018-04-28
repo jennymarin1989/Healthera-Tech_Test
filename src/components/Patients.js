@@ -1,30 +1,34 @@
 import React, { Component} from 'react';
+import Dropdown from 'react-dropdown';
+import 'react-dropdown/style.css';
 import Header from './Header';
 import data from '../data.json';
+
 
 class Patients extends Component {
 
 	constructor(){
 		super();
 		this.state ={
-			selectedOption: [0],
+			selectedOption: "",
 		}
+		this.onSelectedPatient = this.onSelectedPatient.bind(this)
+	}
+
+	onSelectedPatient = (option) => {
+		this.setState({
+			selectedOption: option,
+		})
 	}
 
 
 	render(){
+
+		let defaultOption = this.state.selectedOption
 		return (
 			<div>
 				 <Header header = {"Patients"}/> 
-				 <ul>
-						 {
-							data.map(function(patient){
-								return <h3 key={patient.id} > 
-								 	{patient.name} 
-									</h3>  
-							})
-						 }
-				 </ul>    
+				 
 			</div>    
 	)};  
 };

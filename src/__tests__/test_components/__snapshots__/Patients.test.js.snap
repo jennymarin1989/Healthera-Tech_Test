@@ -17,29 +17,36 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": Array [
-        <Header
-          header="Patients"
+      "children": <Header
+        header="Patients"
 />,
-        <ul>
-          <h3>
-                    John Smith
-          </h3>
-          <h3>
-                    Claire Davis
-          </h3>
-          <h3>
-                    Mary Lopez
-          </h3>
-          <h3>
-                    Joseph Mull
-          </h3>
-</ul>,
-      ],
     },
     "ref": null,
-    "rendered": Array [
-      Object {
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "header": "Patients",
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <Header
+          header="Patients"
+/>,
+      },
+      "ref": null,
+      "rendered": Object {
         "instance": null,
         "key": undefined,
         "nodeType": "function",
@@ -50,187 +57,6 @@ ShallowWrapper {
         "rendered": null,
         "type": [Function],
       },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": Array [
-            <h3>
-              John Smith
-</h3>,
-            <h3>
-              Claire Davis
-</h3>,
-            <h3>
-              Mary Lopez
-</h3>,
-            <h3>
-              Joseph Mull
-</h3>,
-          ],
-        },
-        "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": "1",
-            "nodeType": "host",
-            "props": Object {
-              "children": "John Smith",
-            },
-            "ref": null,
-            "rendered": "John Smith",
-            "type": "h3",
-          },
-          Object {
-            "instance": null,
-            "key": "2",
-            "nodeType": "host",
-            "props": Object {
-              "children": "Claire Davis",
-            },
-            "ref": null,
-            "rendered": "Claire Davis",
-            "type": "h3",
-          },
-          Object {
-            "instance": null,
-            "key": "3",
-            "nodeType": "host",
-            "props": Object {
-              "children": "Mary Lopez",
-            },
-            "ref": null,
-            "rendered": "Mary Lopez",
-            "type": "h3",
-          },
-          Object {
-            "instance": null,
-            "key": "4",
-            "nodeType": "host",
-            "props": Object {
-              "children": "Joseph Mull",
-            },
-            "ref": null,
-            "rendered": "Joseph Mull",
-            "type": "h3",
-          },
-        ],
-        "type": "ul",
-      },
-    ],
-    "type": "div",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": Array [
-          <Header
-            header="Patients"
-/>,
-          <ul>
-            <h3>
-                        John Smith
-            </h3>
-            <h3>
-                        Claire Davis
-            </h3>
-            <h3>
-                        Mary Lopez
-            </h3>
-            <h3>
-                        Joseph Mull
-            </h3>
-</ul>,
-        ],
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "header": "Patients",
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": Array [
-              <h3>
-                John Smith
-</h3>,
-              <h3>
-                Claire Davis
-</h3>,
-              <h3>
-                Mary Lopez
-</h3>,
-              <h3>
-                Joseph Mull
-</h3>,
-            ],
-          },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": "1",
-              "nodeType": "host",
-              "props": Object {
-                "children": "John Smith",
-              },
-              "ref": null,
-              "rendered": "John Smith",
-              "type": "h3",
-            },
-            Object {
-              "instance": null,
-              "key": "2",
-              "nodeType": "host",
-              "props": Object {
-                "children": "Claire Davis",
-              },
-              "ref": null,
-              "rendered": "Claire Davis",
-              "type": "h3",
-            },
-            Object {
-              "instance": null,
-              "key": "3",
-              "nodeType": "host",
-              "props": Object {
-                "children": "Mary Lopez",
-              },
-              "ref": null,
-              "rendered": "Mary Lopez",
-              "type": "h3",
-            },
-            Object {
-              "instance": null,
-              "key": "4",
-              "nodeType": "host",
-              "props": Object {
-                "children": "Joseph Mull",
-              },
-              "ref": null,
-              "rendered": "Joseph Mull",
-              "type": "h3",
-            },
-          ],
-          "type": "ul",
-        },
-      ],
       "type": "div",
     },
   ],
@@ -245,4 +71,4 @@ ShallowWrapper {
 }
 `;
 
-exports[`Patients renders patient name and id from data.jsn 1`] = `undefined`;
+exports[`Patients renders patients from data.jsn 1`] = `undefined`;
