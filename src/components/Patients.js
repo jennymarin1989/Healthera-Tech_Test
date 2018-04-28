@@ -9,11 +9,11 @@ class Patients extends Component {
 				 <Header header = {"Patients"}/> 
 				 <ul>
 						 {
-								data.map(function(patient){
+							data.map(function(patient){
 								return <h3 key={patient.id} > 
 								 	{patient.name} 
 									</h3>  
-								})
+							})
 						 }
 				 </ul>    
 			</div>    

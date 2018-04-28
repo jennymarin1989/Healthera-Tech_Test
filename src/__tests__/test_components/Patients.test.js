@@ -26,6 +26,10 @@ describe("Patients", () => {
        expect(patients.find('Header').exists()).toBe(true);
    });
  });
- 
 
+ describe("initializes state successfully", () => {
+	it('initializes selectedOption as false', () => {
+		expect(patients.state('selectedOption')).toEqual([0]);
+	})
+ });
 });

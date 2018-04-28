@@ -15,7 +15,7 @@ class App extends Component {
 
 	handlePortalClicked = () => {
 			this.setState({
-				PatientPortal: true,
+				PatientPortal: !this.state.PatientPortal,
 			});
 	};
 
