@@ -2,7 +2,7 @@
 
 exports[`title returns title with specific style 1`] = `
 .c0 {
-  font-size: 1.875em;
+  font-size: 0.8em;
   color: MediumSeaGreen;
   font-family: verdana;
 }
