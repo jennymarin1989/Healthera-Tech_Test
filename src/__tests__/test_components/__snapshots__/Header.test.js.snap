@@ -2,7 +2,7 @@
 
 exports[`Header renders component correctly renders Title component correctly 1`] = `
 <text
-  className="sc-bdVaJa gogJqr"
+  className="sc-bdVaJa bPoJkp"
 >
   Healthera
 </text>

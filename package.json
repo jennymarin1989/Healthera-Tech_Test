@@ -10,6 +10,7 @@
     "react-addons-test-utils": "^15.6.2",
     "react-bootstrap": "^0.32.1",
     "react-dropdown": "^1.4.2",
+    "react-flexview": "^3.0.1",
     "react-scripts": "1.1.4",
     "react-select": "^2.0.0-beta.2",
     "react-selectfield": "0.0.4",

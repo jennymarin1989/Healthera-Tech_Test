@@ -24,7 +24,7 @@ class App extends Component {
          <div>
             <Header header={"Healthera"}/> 
 				 <SubmitButton 
-					name={"Patient Portal"}
+					name={"Patients"}
 					handlePortalClicked = {this.handlePortalClicked}
 				  />
 				  {this.state.PatientPortal ? 

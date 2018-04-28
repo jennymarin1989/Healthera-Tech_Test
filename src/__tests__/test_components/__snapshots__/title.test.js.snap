@@ -5,6 +5,7 @@ exports[`title returns title with specific style 1`] = `
   font-size: 0.8em;
   color: MediumSeaGreen;
   font-family: verdana;
+  margin: 25px;
 }
 
 <text

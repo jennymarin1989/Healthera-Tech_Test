@@ -5,12 +5,13 @@ const PortalButton = styled.button `
     background: transparent;
     color: MediumSeaGreen;
     padding: 10px 20px;
-    border: 2px solid #4CAF50 ;
-    font-size: 0.3em;
+    border: none ;
+    font-size: 0.9em;
     font-family: verdana;
     
+    
     &:hover {
-        border: 3px #DCDCDC;
+        border: #DCDCDC;
       }
 
 `

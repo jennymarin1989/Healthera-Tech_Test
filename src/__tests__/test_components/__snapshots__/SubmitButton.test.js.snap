@@ -2,7 +2,7 @@
 
 exports[`SubmitButton renders component correctly renders PortalButton component correctly 1`] = `
 <button
-  className="sc-bdVaJa kQRXVf"
+  className="sc-bdVaJa jCyAds"
 >
   Patient Portal
 </button>
