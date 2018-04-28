@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`title returns title with specific style 1`] = `
+.c0 {
+  font-size: 1.875em;
+  color: MediumSeaGreen;
+  font-family: verdana;
+}
+
+<text
+  className="c0"
+/>
+`;
