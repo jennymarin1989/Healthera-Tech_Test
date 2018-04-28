@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[` 1`] = `
+exports[`Header renders component correctly renders Title component correctly 1`] = `
 <text
   className="sc-bdVaJa gogJqr"
 >

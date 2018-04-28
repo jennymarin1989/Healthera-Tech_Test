@@ -1,9 +1,10 @@
 import React from 'react'
+import PortalButton from './styling/portalButton';
 
 const SubmitButton = props => {
 
     return(
-        <button id={"submitButton"} onClick={props.handlePortalClicked}>{props.name}</button>
+        <PortalButton id={"submitButton"} onClick={props.handlePortalClicked}>{props.name}</PortalButton>
     );
 };
 

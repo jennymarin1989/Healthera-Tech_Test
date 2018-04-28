@@ -12,11 +12,12 @@ describe('Header', () => {
 		expect(header).toMatchSnapshot();
   })
 
-describe('renders component correctly', ()=>{
-    let title = renderer
-    .create(<Title>Healthera</Title>)
-    .toJSON();
-   expect(title).toMatchSnapshot();
-})
-  
+  describe('renders component correctly', () => {
+    it("renders Title component correctly", () =>{
+      let title = renderer
+      .create(<Title>Healthera</Title>)
+      .toJSON();
+    expect(title).toMatchSnapshot();
+    })  
+  })  
 });

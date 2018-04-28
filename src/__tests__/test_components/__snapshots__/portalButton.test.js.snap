@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Portal Patient button should render the button style correctly 1`] = `
+.c0 {
+  background: transparent;
+  color: MediumSeaGreen;
+  padding: 10px 20px;
+  border: 2px solid #4CAF50;
+  font-size: 0.3em;
+  font-family: verdana;
+}
+
+.c0:hover {
+  border: 3px #DCDCDC;
+}
+
+<button
+  className="c0"
+/>
+`;

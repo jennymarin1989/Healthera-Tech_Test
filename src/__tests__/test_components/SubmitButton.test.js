@@ -1,6 +1,8 @@
 import React from 'react';
+import renderer from 'react-test-renderer';
 import { shallow } from 'enzyme';
 import SubmitButton from '../../components/SubmitButton';
+import PortalButton from '../../components/styling/portalButton';
 
 describe("SubmitButton", () => {
 	
@@ -18,4 +20,13 @@ describe("SubmitButton", () => {
 			expect(mockhandlePortalClicked).toBeCalled();
 		})
 	});
+
+	describe("renders component correctly", () => {
+		it("renders PortalButton component correctly", () => {
+			let patientButton = renderer
+			.create(<PortalButton>Patient Portal</PortalButton>)
+      		.toJSON();
+   			 expect(patientButton).toMatchSnapshot();
+		})
+	})
 });

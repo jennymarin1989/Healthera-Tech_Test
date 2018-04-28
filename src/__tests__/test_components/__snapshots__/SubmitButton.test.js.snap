@@ -1,5 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`SubmitButton renders component correctly renders PortalButton component correctly 1`] = `
+<button
+  className="sc-bdVaJa kQRXVf"
+>
+  Patient Portal
+</button>
+`;
+
 exports[`SubmitButton renders correctly 1`] = `
 ShallowWrapper {
   "length": 1,
@@ -15,7 +23,7 @@ ShallowWrapper {
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "host",
+    "nodeType": "class",
     "props": Object {
       "children": undefined,
       "id": "submitButton",
@@ -23,13 +31,13 @@ ShallowWrapper {
     },
     "ref": null,
     "rendered": null,
-    "type": "button",
+    "type": [Function],
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "host",
+      "nodeType": "class",
       "props": Object {
         "children": undefined,
         "id": "submitButton",
@@ -37,7 +45,7 @@ ShallowWrapper {
       },
       "ref": null,
       "rendered": null,
-      "type": "button",
+      "type": [Function],
     },
   ],
   Symbol(enzyme.__options__): Object {
