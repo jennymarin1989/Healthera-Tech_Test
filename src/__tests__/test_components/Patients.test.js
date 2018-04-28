@@ -31,5 +31,12 @@ describe("Patients", () => {
 	it('initializes selectedOption as false', () => {
 		expect(patients.state('selectedOption')).toEqual([0]);
 	})
+
+	describe("Updates states successfully", () => {
+		it("changes state of selectedOption from 0 to option", () => {
+			patients.instance().onSelectedPatient();
+			expect(patients.state('selectedOption')).toEqual("option");
+		})
+	})
  });
 });
