@@ -35,13 +35,15 @@ class Patients extends Component {
 					id={"patient-page"}
 					/> 
 				 </FlexView>
-				 <FlexView vAlignContent='left' vAlignContent='center' style={{ marginLeft: '125px', height: '50px' } }>
+				 <FlexView vAlignContent='left' vAlignContent='center' style={{ marginLeft: '125px', height:'50px' } }>
 						<Dropdown  
 								options = {data}
 								onChange = {this.onSelectedPatient}
 								value = {defaultOption}
 								placeholder = "Search for a patient"
 								/>
+					</FlexView >
+					<FlexView hAlignContent='right' style={{ marginLeft: '500px' } }>			
 				 		<PatientChat />	
 				</FlexView>	 
 			</div>    

@@ -36,6 +36,8 @@ class PatientChat extends Component {
                     <div className="card">
                         <div className="card-body">
                             <div className="card-title">Messages</div>
+															<div>
+															 </div>
                             <hr/>
                             <div className="messages">
 															{this.state.messages.map(function(message,i) {
