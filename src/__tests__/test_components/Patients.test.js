@@ -1,8 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import toJson from 'enzyme-to-json';
 import Patients from '../../components/Patients';
-import Message from '../../components/Message';
+import PatientChat from '../../components/PatientChat';
 
 describe("Patients", () => {
 
@@ -26,7 +25,7 @@ describe("Patients", () => {
 	 });
 	 
 	 it('render Message component correctly', () => {
-		 expect(patients.find('Message').exists()).toBe(true);
+		 expect(patients.find('PatientChat').exists()).toBe(true);
 	 })
  });
 
