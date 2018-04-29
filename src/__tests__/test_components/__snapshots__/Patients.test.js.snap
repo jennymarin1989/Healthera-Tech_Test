@@ -18,24 +18,52 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <Header
-          header="Patients"
-          id="patient-page"
-/>,
-        <Dropdown
-          baseClassName="Dropdown"
-          onChange={[Function]}
-          options={
-                    Array [
-                              "Julian Smith",
-                              "Helen Lopez",
-                              "Charles stock",
-                            ]
+        <FlexView
+          hAlignContent="left"
+          style={
+                    Object {
+                              "marginLeft": "100px",
+                            }
           }
-          placeholder="Search for a patient"
-          value=""
-/>,
-        <PatientChat />,
+          vAlignContent="center"
+>
+          <Header
+                    header="Patients"
+                    id="patient-page"
+          />
+</FlexView>,
+        <FlexView
+          style={
+                    Object {
+                              "height": "50px",
+                              "marginLeft": "125px",
+                            }
+          }
+          vAlignContent="center"
+>
+          <Dropdown
+                    baseClassName="Dropdown"
+                    onChange={[Function]}
+                    options={
+                              Array [
+                                        "Julian Smith",
+                                        "Helen Lopez",
+                                        "Charles stock",
+                                      ]
+                    }
+                    placeholder="Search for a patient"
+                    value=""
+          />
+          <div
+                    style={
+                              Object {
+                                        "marginLeft": "80px",
+                                      }
+                    }
+          >
+                    <PatientChat />
+          </div>
+</FlexView>,
       ],
     },
     "ref": null,
@@ -43,13 +71,31 @@ ShallowWrapper {
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "function",
+        "nodeType": "class",
         "props": Object {
-          "header": "Patients",
-          "id": "patient-page",
+          "children": <Header
+            header="Patients"
+            id="patient-page"
+/>,
+          "hAlignContent": "left",
+          "style": Object {
+            "marginLeft": "100px",
+          },
+          "vAlignContent": "center",
         },
         "ref": null,
-        "rendered": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "header": "Patients",
+            "id": "patient-page",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
         "type": [Function],
       },
       Object {
@@ -57,27 +103,80 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "class",
         "props": Object {
-          "baseClassName": "Dropdown",
-          "onChange": [Function],
-          "options": Array [
-            "Julian Smith",
-            "Helen Lopez",
-            "Charles stock",
+          "children": Array [
+            <Dropdown
+              baseClassName="Dropdown"
+              onChange={[Function]}
+              options={
+                            Array [
+                                          "Julian Smith",
+                                          "Helen Lopez",
+                                          "Charles stock",
+                                        ]
+              }
+              placeholder="Search for a patient"
+              value=""
+/>,
+            <div
+              style={
+                            Object {
+                                          "marginLeft": "80px",
+                                        }
+              }
+>
+              <PatientChat />
+</div>,
           ],
-          "placeholder": "Search for a patient",
-          "value": "",
+          "style": Object {
+            "height": "50px",
+            "marginLeft": "125px",
+          },
+          "vAlignContent": "center",
         },
         "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {},
-        "ref": null,
-        "rendered": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "baseClassName": "Dropdown",
+              "onChange": [Function],
+              "options": Array [
+                "Julian Smith",
+                "Helen Lopez",
+                "Charles stock",
+              ],
+              "placeholder": "Search for a patient",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <PatientChat />,
+              "style": Object {
+                "marginLeft": "80px",
+              },
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "div",
+          },
+        ],
         "type": [Function],
       },
     ],
@@ -90,24 +189,52 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <Header
-            header="Patients"
-            id="patient-page"
-/>,
-          <Dropdown
-            baseClassName="Dropdown"
-            onChange={[Function]}
-            options={
-                        Array [
-                                    "Julian Smith",
-                                    "Helen Lopez",
-                                    "Charles stock",
-                                  ]
+          <FlexView
+            hAlignContent="left"
+            style={
+                        Object {
+                                    "marginLeft": "100px",
+                                  }
             }
-            placeholder="Search for a patient"
-            value=""
-/>,
-          <PatientChat />,
+            vAlignContent="center"
+>
+            <Header
+                        header="Patients"
+                        id="patient-page"
+            />
+</FlexView>,
+          <FlexView
+            style={
+                        Object {
+                                    "height": "50px",
+                                    "marginLeft": "125px",
+                                  }
+            }
+            vAlignContent="center"
+>
+            <Dropdown
+                        baseClassName="Dropdown"
+                        onChange={[Function]}
+                        options={
+                                    Array [
+                                                "Julian Smith",
+                                                "Helen Lopez",
+                                                "Charles stock",
+                                              ]
+                        }
+                        placeholder="Search for a patient"
+                        value=""
+            />
+            <div
+                        style={
+                                    Object {
+                                                "marginLeft": "80px",
+                                              }
+                        }
+            >
+                        <PatientChat />
+            </div>
+</FlexView>,
         ],
       },
       "ref": null,
@@ -115,13 +242,31 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "function",
+          "nodeType": "class",
           "props": Object {
-            "header": "Patients",
-            "id": "patient-page",
+            "children": <Header
+              header="Patients"
+              id="patient-page"
+/>,
+            "hAlignContent": "left",
+            "style": Object {
+              "marginLeft": "100px",
+            },
+            "vAlignContent": "center",
           },
           "ref": null,
-          "rendered": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "header": "Patients",
+              "id": "patient-page",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
           "type": [Function],
         },
         Object {
@@ -129,27 +274,80 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "class",
           "props": Object {
-            "baseClassName": "Dropdown",
-            "onChange": [Function],
-            "options": Array [
-              "Julian Smith",
-              "Helen Lopez",
-              "Charles stock",
+            "children": Array [
+              <Dropdown
+                baseClassName="Dropdown"
+                onChange={[Function]}
+                options={
+                                Array [
+                                                "Julian Smith",
+                                                "Helen Lopez",
+                                                "Charles stock",
+                                              ]
+                }
+                placeholder="Search for a patient"
+                value=""
+/>,
+              <div
+                style={
+                                Object {
+                                                "marginLeft": "80px",
+                                              }
+                }
+>
+                <PatientChat />
+</div>,
             ],
-            "placeholder": "Search for a patient",
-            "value": "",
+            "style": Object {
+              "height": "50px",
+              "marginLeft": "125px",
+            },
+            "vAlignContent": "center",
           },
           "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {},
-          "ref": null,
-          "rendered": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "baseClassName": "Dropdown",
+                "onChange": [Function],
+                "options": Array [
+                  "Julian Smith",
+                  "Helen Lopez",
+                  "Charles stock",
+                ],
+                "placeholder": "Search for a patient",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <PatientChat />,
+                "style": Object {
+                  "marginLeft": "80px",
+                },
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+          ],
           "type": [Function],
         },
       ],

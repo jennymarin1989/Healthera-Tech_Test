@@ -42,9 +42,9 @@ class Patients extends Component {
 								value = {defaultOption}
 								placeholder = "Search for a patient"
 								/>
-					{/* </FlexView >
-					<FlexView hAlignContent='right' style={{ marginLeft: '400px' } }>			 */}
+					<div style={{marginLeft: "80px"}}>
 				 		<PatientChat />	
+					</div>	 
 				</FlexView>	 
 			</div>    
 	)};  

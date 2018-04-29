@@ -7,7 +7,7 @@ class PatientChat extends Component {
 		constructor(){
 			super();
 			this.state ={
-				message: "Message",
+				message: "",
 				messages: []
 			}
 			this.updatePatientMessage = this.updatePatientMessage.bind(this)

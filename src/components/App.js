@@ -30,7 +30,6 @@ class App extends Component {
 					id={"homepage"}
 					/>
 			 </FlexView>
-
 			  <FlexView vAlignContent="left" style={{ marginLeft: '20px' }}>
 					<SubmitButton 
 						name={"Patients"}
