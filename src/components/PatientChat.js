@@ -38,7 +38,12 @@ class PatientChat extends Component {
                             <div className="card-title">Messages</div>
                             <hr/>
                             <div className="messages">
-														
+															{this.state.messages.map(function(message,i) {
+																return (
+																		<li key={i}>{message}</li>
+																			)
+																})
+															}   
                             </div>
                         </div>
                         <div className="card-footer">
