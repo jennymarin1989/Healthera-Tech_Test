@@ -29,23 +29,23 @@ class Patients extends Component {
 		let defaultOption = this.state.selectedOption
 		return (
 			<div>
-				<FlexView hAlignContent='left' vAlignContent='center' style={{ marginLeft: '100px' }}>
+				<FlexView hAlignContent='left'  style={{ marginLeft: '100px' }}>
 					<Header 
 					header = {"Patients"}
 					id={"patient-page"}
 					/> 
 				 </FlexView>
-				 <FlexView vAlignContent='left' vAlignContent='center' style={{ marginLeft: '125px', height:'50px' } }>
+				 <FlexView vAlignContent='left' hAlignContent='center' style={{ marginLeft: '125px', marginRight:'50px',height:'20px', width: '30%' } }>
 						<Dropdown  
 								options = {data}
 								onChange = {this.onSelectedPatient}
 								value = {defaultOption}
 								placeholder = "Search for a patient"
 								/>
-					<div style={{marginLeft: "80px"}}>
+					</FlexView>		
+					<div style={{marginLeft: "600px", width:'50%', marginTop:'-100px'}}>
 				 		<PatientChat />	
-					</div>	 
-				</FlexView>	 
+					</div>	  
 			</div>    
 	)};  
 };

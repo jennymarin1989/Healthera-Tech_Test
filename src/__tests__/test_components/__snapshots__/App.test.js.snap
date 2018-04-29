@@ -18,53 +18,79 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <FlexView
-          hAlignContent="left"
-          style={
-                    Object {
-                              "marginLeft": "10px",
-                            }
-          }
->
-          <Header
-                    header="Healthera"
-                    id="homepage"
-          />
-</FlexView>,
-        <FlexView
-          style={
-                    Object {
-                              "marginLeft": "20px",
-                            }
-          }
-          vAlignContent="left"
->
-          <SubmitButton
-                    handleSubmit={[Function]}
-                    id="submitButton"
-                    name="Patients"
-          />
-</FlexView>,
+        <Header
+          header="Healthera"
+          id="homepage"
+/>,
+        <SubmitButton
+          handleSubmit={[Function]}
+          id="submitButton"
+          name="Patients"
+/>,
+        null,
       ],
+      "style": Object {
+        "display": "grid",
+        "gridTemplateColumns": "1fr 0.5fr 2fr ",
+      },
     },
     "ref": null,
     "rendered": Array [
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "class",
+        "nodeType": "function",
         "props": Object {
-          "children": <Header
+          "header": "Healthera",
+          "id": "homepage",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "handleSubmit": [Function],
+          "id": "submitButton",
+          "name": "Patients",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      null,
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <Header
             header="Healthera"
             id="homepage"
 />,
-          "hAlignContent": "left",
-          "style": Object {
-            "marginLeft": "10px",
-          },
+          <SubmitButton
+            handleSubmit={[Function]}
+            id="submitButton"
+            name="Patients"
+/>,
+          null,
+        ],
+        "style": Object {
+          "display": "grid",
+          "gridTemplateColumns": "1fr 0.5fr 2fr ",
         },
-        "ref": null,
-        "rendered": Object {
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
           "instance": null,
           "key": undefined,
           "nodeType": "function",
@@ -76,152 +102,20 @@ ShallowWrapper {
           "rendered": null,
           "type": [Function],
         },
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": Array [
-            <SubmitButton
-              handleSubmit={[Function]}
-              id="submitButton"
-              name="Patients"
-/>,
-            null,
-          ],
-          "style": Object {
-            "marginLeft": "20px",
-          },
-          "vAlignContent": "left",
-        },
-        "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "function",
-            "props": Object {
-              "handleSubmit": [Function],
-              "id": "submitButton",
-              "name": "Patients",
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
-          null,
-        ],
-        "type": [Function],
-      },
-    ],
-    "type": "div",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": Array [
-          <FlexView
-            hAlignContent="left"
-            style={
-                        Object {
-                                    "marginLeft": "10px",
-                                  }
-            }
->
-            <Header
-                        header="Healthera"
-                        id="homepage"
-            />
-</FlexView>,
-          <FlexView
-            style={
-                        Object {
-                                    "marginLeft": "20px",
-                                  }
-            }
-            vAlignContent="left"
->
-            <SubmitButton
-                        handleSubmit={[Function]}
-                        id="submitButton"
-                        name="Patients"
-            />
-</FlexView>,
-        ],
-      },
-      "ref": null,
-      "rendered": Array [
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
-            "children": <Header
-              header="Healthera"
-              id="homepage"
-/>,
-            "hAlignContent": "left",
-            "style": Object {
-              "marginLeft": "10px",
-            },
+            "handleSubmit": [Function],
+            "id": "submitButton",
+            "name": "Patients",
           },
           "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "function",
-            "props": Object {
-              "header": "Healthera",
-              "id": "homepage",
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
+          "rendered": null,
           "type": [Function],
         },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": Array [
-              <SubmitButton
-                handleSubmit={[Function]}
-                id="submitButton"
-                name="Patients"
-/>,
-              null,
-            ],
-            "style": Object {
-              "marginLeft": "20px",
-            },
-            "vAlignContent": "left",
-          },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "function",
-              "props": Object {
-                "handleSubmit": [Function],
-                "id": "submitButton",
-                "name": "Patients",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-            null,
-          ],
-          "type": [Function],
-        },
+        null,
       ],
       "type": "div",
     },

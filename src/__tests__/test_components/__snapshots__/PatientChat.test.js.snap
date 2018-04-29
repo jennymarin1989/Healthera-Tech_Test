@@ -39,6 +39,12 @@ ShallowWrapper {
                                 <hr />
                                 <div
                                         className="messages"
+                                        style={
+                                                Object {
+                                                        "backgroundColor": "green",
+                                                        "marginTop": "10px",
+                                                      }
+                                        }
                                 >
                                         
                                 </div>
@@ -89,6 +95,12 @@ ShallowWrapper {
                               <hr />
                               <div
                                         className="messages"
+                                        style={
+                                                  Object {
+                                                            "backgroundColor": "green",
+                                                            "marginTop": "10px",
+                                                          }
+                                        }
                               >
                                         
                               </div>
@@ -135,6 +147,12 @@ ShallowWrapper {
                         <hr />
                         <div
                                     className="messages"
+                                    style={
+                                                Object {
+                                                            "backgroundColor": "green",
+                                                            "marginTop": "10px",
+                                                          }
+                                    }
                         >
                                     
                         </div>
@@ -178,6 +196,12 @@ ShallowWrapper {
                 <hr />
                 <div
                                 className="messages"
+                                style={
+                                                Object {
+                                                                "backgroundColor": "green",
+                                                                "marginTop": "10px",
+                                                              }
+                                }
                 >
                                 
                 </div>
@@ -219,6 +243,12 @@ ShallowWrapper {
                   <hr />,
                   <div
                     className="messages"
+                    style={
+                                        Object {
+                                                            "backgroundColor": "green",
+                                                            "marginTop": "10px",
+                                                          }
+                    }
 >
                     
 </div>,
@@ -267,6 +297,10 @@ ShallowWrapper {
                   "props": Object {
                     "children": Array [],
                     "className": "messages",
+                    "style": Object {
+                      "backgroundColor": "green",
+                      "marginTop": "10px",
+                    },
                   },
                   "ref": null,
                   "rendered": Array [],
@@ -366,6 +400,12 @@ ShallowWrapper {
                                         <hr />
                                         <div
                                                   className="messages"
+                                                  style={
+                                                            Object {
+                                                                      "backgroundColor": "green",
+                                                                      "marginTop": "10px",
+                                                                    }
+                                                  }
                                         >
                                                   
                                         </div>
@@ -416,6 +456,12 @@ ShallowWrapper {
                                     <hr />
                                     <div
                                                 className="messages"
+                                                style={
+                                                            Object {
+                                                                        "backgroundColor": "green",
+                                                                        "marginTop": "10px",
+                                                                      }
+                                                }
                                     >
                                                 
                                     </div>
@@ -462,6 +508,12 @@ ShallowWrapper {
                             <hr />
                             <div
                                           className="messages"
+                                          style={
+                                                        Object {
+                                                                      "backgroundColor": "green",
+                                                                      "marginTop": "10px",
+                                                                    }
+                                          }
                             >
                                           
                             </div>
@@ -505,6 +557,12 @@ ShallowWrapper {
                   <hr />
                   <div
                                     className="messages"
+                                    style={
+                                                      Object {
+                                                                        "backgroundColor": "green",
+                                                                        "marginTop": "10px",
+                                                                      }
+                                    }
                   >
                                     
                   </div>
@@ -546,6 +604,12 @@ ShallowWrapper {
                     <hr />,
                     <div
                       className="messages"
+                      style={
+                                            Object {
+                                                                  "backgroundColor": "green",
+                                                                  "marginTop": "10px",
+                                                                }
+                      }
 >
                       
 </div>,
@@ -594,6 +658,10 @@ ShallowWrapper {
                     "props": Object {
                       "children": Array [],
                       "className": "messages",
+                      "style": Object {
+                        "backgroundColor": "green",
+                        "marginTop": "10px",
+                      },
                     },
                     "ref": null,
                     "rendered": Array [],

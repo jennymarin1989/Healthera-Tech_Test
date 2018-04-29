@@ -39,10 +39,10 @@ class PatientChat extends Component {
 																<h3>Messages</h3>
 														</div>
                             <hr/>
-                            <div className="messages">
+                            <div className="messages" style={{marginTop:'10px', backgroundColor:'green'}}>
 															{this.state.messages.map(function(message,i) {
 																return (
-																		<li key={i}>{message}</li>
+																		<li key={i}>{message}<hr/></li>
 																			)
 																})
 															}   
