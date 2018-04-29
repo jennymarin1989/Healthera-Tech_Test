@@ -23,6 +23,7 @@ ShallowWrapper {
 />,
         <SubmitButton
           handlePortalClicked={[Function]}
+          id="submitButton"
           name="Patients"
 />,
         null,
@@ -47,6 +48,7 @@ ShallowWrapper {
         "nodeType": "function",
         "props": Object {
           "handlePortalClicked": [Function],
+          "id": "submitButton",
           "name": "Patients",
         },
         "ref": null,
@@ -69,6 +71,7 @@ ShallowWrapper {
 />,
           <SubmitButton
             handlePortalClicked={[Function]}
+            id="submitButton"
             name="Patients"
 />,
           null,
@@ -93,6 +96,7 @@ ShallowWrapper {
           "nodeType": "function",
           "props": Object {
             "handlePortalClicked": [Function],
+            "id": "submitButton",
             "name": "Patients",
           },
           "ref": null,

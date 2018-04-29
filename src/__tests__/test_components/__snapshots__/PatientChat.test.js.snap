@@ -50,11 +50,6 @@ ShallowWrapper {
                                         value="Message"
                                 />
                                 <br />
-                                <button
-                                        className="btn btn-primary form-control"
-                                >
-                                        Send
-                                </button>
                         </div>
                 </div>
         </div>
@@ -97,11 +92,6 @@ ShallowWrapper {
                                         value="Message"
                               />
                               <br />
-                              <button
-                                        className="btn btn-primary form-control"
-                              >
-                                        Send
-                              </button>
                     </div>
           </div>
 </div>,
@@ -140,11 +130,6 @@ ShallowWrapper {
                                     value="Message"
                         />
                         <br />
-                        <button
-                                    className="btn btn-primary form-control"
-                        >
-                                    Send
-                        </button>
             </div>
 </div>,
           "className": "col-4",
@@ -180,11 +165,6 @@ ShallowWrapper {
                                 value="Message"
                 />
                 <br />
-                <button
-                                className="btn btn-primary form-control"
-                >
-                                Send
-                </button>
 </div>,
             ],
             "className": "card",
@@ -260,11 +240,6 @@ ShallowWrapper {
                     value="Message"
 />,
                   <br />,
-                  <button
-                    className="btn btn-primary form-control"
->
-                    Send
-</button>,
                 ],
                 "className": "card-footer",
               },
@@ -293,18 +268,6 @@ ShallowWrapper {
                   "ref": null,
                   "rendered": null,
                   "type": "br",
-                },
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": "Send",
-                    "className": "btn btn-primary form-control",
-                  },
-                  "ref": null,
-                  "rendered": "Send",
-                  "type": "button",
                 },
               ],
               "type": "div",
@@ -357,11 +320,6 @@ ShallowWrapper {
                                                   value="Message"
                                         />
                                         <br />
-                                        <button
-                                                  className="btn btn-primary form-control"
-                                        >
-                                                  Send
-                                        </button>
                               </div>
                     </div>
           </div>
@@ -404,11 +362,6 @@ ShallowWrapper {
                                                 value="Message"
                                     />
                                     <br />
-                                    <button
-                                                className="btn btn-primary form-control"
-                                    >
-                                                Send
-                                    </button>
                         </div>
             </div>
 </div>,
@@ -447,11 +400,6 @@ ShallowWrapper {
                                           value="Message"
                             />
                             <br />
-                            <button
-                                          className="btn btn-primary form-control"
-                            >
-                                          Send
-                            </button>
               </div>
 </div>,
             "className": "col-4",
@@ -487,11 +435,6 @@ ShallowWrapper {
                                     value="Message"
                   />
                   <br />
-                  <button
-                                    className="btn btn-primary form-control"
-                  >
-                                    Send
-                  </button>
 </div>,
               ],
               "className": "card",
@@ -567,11 +510,6 @@ ShallowWrapper {
                       value="Message"
 />,
                     <br />,
-                    <button
-                      className="btn btn-primary form-control"
->
-                      Send
-</button>,
                   ],
                   "className": "card-footer",
                 },
@@ -600,18 +538,6 @@ ShallowWrapper {
                     "ref": null,
                     "rendered": null,
                     "type": "br",
-                  },
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": "Send",
-                      "className": "btn btn-primary form-control",
-                    },
-                    "ref": null,
-                    "rendered": "Send",
-                    "type": "button",
                   },
                 ],
                 "type": "div",
