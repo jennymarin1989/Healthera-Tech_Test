@@ -37,7 +37,9 @@ ShallowWrapper {
                                 <hr />
                                 <div
                                         className="messages"
-                                />
+                                >
+                                        
+                                </div>
                         </div>
                         <div
                                 className="card-footer"
@@ -84,7 +86,9 @@ ShallowWrapper {
                               <hr />
                               <div
                                         className="messages"
-                              />
+                              >
+                                        
+                              </div>
                     </div>
                     <div
                               className="card-footer"
@@ -127,7 +131,9 @@ ShallowWrapper {
                         <hr />
                         <div
                                     className="messages"
-                        />
+                        >
+                                    
+                        </div>
             </div>
             <div
                         className="card-footer"
@@ -167,7 +173,9 @@ ShallowWrapper {
                 <hr />
                 <div
                                 className="messages"
-                />
+                >
+                                
+                </div>
 </div>,
               <div
                 className="card-footer"
@@ -205,7 +213,9 @@ ShallowWrapper {
                   <hr />,
                   <div
                     className="messages"
-/>,
+>
+                    
+</div>,
                 ],
                 "className": "card-body",
               },
@@ -237,10 +247,11 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
+                    "children": Array [],
                     "className": "messages",
                   },
                   "ref": null,
-                  "rendered": null,
+                  "rendered": Array [],
                   "type": "div",
                 },
               ],
@@ -345,7 +356,9 @@ ShallowWrapper {
                                         <hr />
                                         <div
                                                   className="messages"
-                                        />
+                                        >
+                                                  
+                                        </div>
                               </div>
                               <div
                                         className="card-footer"
@@ -392,7 +405,9 @@ ShallowWrapper {
                                     <hr />
                                     <div
                                                 className="messages"
-                                    />
+                                    >
+                                                
+                                    </div>
                         </div>
                         <div
                                     className="card-footer"
@@ -435,7 +450,9 @@ ShallowWrapper {
                             <hr />
                             <div
                                           className="messages"
-                            />
+                            >
+                                          
+                            </div>
               </div>
               <div
                             className="card-footer"
@@ -475,7 +492,9 @@ ShallowWrapper {
                   <hr />
                   <div
                                     className="messages"
-                  />
+                  >
+                                    
+                  </div>
 </div>,
                 <div
                   className="card-footer"
@@ -513,7 +532,9 @@ ShallowWrapper {
                     <hr />,
                     <div
                       className="messages"
-/>,
+>
+                      
+</div>,
                   ],
                   "className": "card-body",
                 },
@@ -545,10 +566,11 @@ ShallowWrapper {
                     "key": undefined,
                     "nodeType": "host",
                     "props": Object {
+                      "children": Array [],
                       "className": "messages",
                     },
                     "ref": null,
-                    "rendered": null,
+                    "rendered": Array [],
                     "type": "div",
                   },
                 ],

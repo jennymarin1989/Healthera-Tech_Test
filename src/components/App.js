@@ -22,7 +22,12 @@ class App extends Component {
     render(){ 
      return(
          <div>
-            <Header header={"Healthera"}/> 
+			 <div>
+			<Header 
+			header={"Healthera"}
+			id={"homepage"}
+			/> 
+			 </div>
 				 <SubmitButton 
 					name={"Patients"}
 					id={"submitButton"}

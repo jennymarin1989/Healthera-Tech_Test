@@ -20,6 +20,7 @@ ShallowWrapper {
       "children": Array [
         <Header
           header="Patients"
+          id="patient-page"
 />,
         <Dropdown
           baseClassName="Dropdown"
@@ -45,6 +46,7 @@ ShallowWrapper {
         "nodeType": "function",
         "props": Object {
           "header": "Patients",
+          "id": "patient-page",
         },
         "ref": null,
         "rendered": null,
@@ -90,6 +92,7 @@ ShallowWrapper {
         "children": Array [
           <Header
             header="Patients"
+            id="patient-page"
 />,
           <Dropdown
             baseClassName="Dropdown"
@@ -115,6 +118,7 @@ ShallowWrapper {
           "nodeType": "function",
           "props": Object {
             "header": "Patients",
+            "id": "patient-page",
           },
           "ref": null,
           "rendered": null,

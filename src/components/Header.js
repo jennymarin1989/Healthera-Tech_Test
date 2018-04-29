@@ -5,7 +5,7 @@ import Title from './styling/title';
 const Header = (props) => {
     return (
         <Title>
-        <h1> {props.header} </h1>
+        <h1 id={props.id}> {props.header} </h1>
         </Title>
     )
 };

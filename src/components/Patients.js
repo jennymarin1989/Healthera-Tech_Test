@@ -28,7 +28,10 @@ class Patients extends Component {
 		let defaultOption = this.state.selectedOption
 		return (
 			<div>
-				 <Header header = {"Patients"}/> 
+				 <Header 
+				 header = {"Patients"}
+				 id={"patient-page"}
+				 /> 
 				 <Dropdown  
 						 options = {data}
 						 onChange = {this.onSelectedPatient}
