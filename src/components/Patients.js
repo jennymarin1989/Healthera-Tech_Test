@@ -1,5 +1,6 @@
 import React, { Component} from 'react';
 import Dropdown from 'react-dropdown';
+import FlexView from 'react-flexview';
 import 'react-dropdown/style.css';
 import Header from './Header';
 import PatientChat from './PatientChat';
@@ -28,17 +29,21 @@ class Patients extends Component {
 		let defaultOption = this.state.selectedOption
 		return (
 			<div>
+				<FlexView hAlignContent='left' vAlignContent='center' style={{ marginLeft: '100px' }}>
 				 <Header 
 				 header = {"Patients"}
 				 id={"patient-page"}
 				 /> 
-				 <Dropdown  
-						 options = {data}
-						 onChange = {this.onSelectedPatient}
-						 value = {defaultOption}
-						 placeholder = "Search for a patient"
-						 />
-				 <PatientChat />		 
+				 </FlexView>
+				 <FlexView vAlignContent='left' vAlignContent='center'>
+						<Dropdown  
+								options = {data}
+								onChange = {this.onSelectedPatient}
+								value = {defaultOption}
+								placeholder = "Search for a patient"
+								/>
+				 		<PatientChat />	
+				</FlexView>	 
 			</div>    
 	)};  
 };
