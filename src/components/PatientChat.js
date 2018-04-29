@@ -5,7 +5,8 @@ class PatientChat extends Component {
 		constructor(){
 			super();
 			this.state ={
-				message: ""
+				message: "",
+				messages: []
 			}
 		}
 	
