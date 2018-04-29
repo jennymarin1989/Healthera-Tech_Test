@@ -1,5 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
+import renderer from 'react-test-renderer';
 import PatientChat from '../../components/PatientChat';
 
 
@@ -23,8 +24,7 @@ describe('PatientChat',() => {
 
 	describe("updates message state succesfully", () =>{
 		it("updates state of message with target event successfully", () => {
-			let input = "My message";
-			chat.instance().updatePatientMessage(input);
+			chat.find('message').simulate('change', {target: { value: "My message"}})
 			expect(chat.state('message')).toEqual("My message");
 		});
 
