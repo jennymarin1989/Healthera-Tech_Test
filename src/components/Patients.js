@@ -30,12 +30,12 @@ class Patients extends Component {
 		return (
 			<div>
 				<FlexView hAlignContent='left' vAlignContent='center' style={{ marginLeft: '100px' }}>
-				 <Header 
-				 header = {"Patients"}
-				 id={"patient-page"}
-				 /> 
+					<Header 
+					header = {"Patients"}
+					id={"patient-page"}
+					/> 
 				 </FlexView>
-				 <FlexView vAlignContent='left' vAlignContent='center'>
+				 <FlexView vAlignContent='left' vAlignContent='center' style={{ marginLeft: '125px', height: '50px' } }>
 						<Dropdown  
 								options = {data}
 								onChange = {this.onSelectedPatient}
