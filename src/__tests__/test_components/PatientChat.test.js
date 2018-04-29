@@ -11,4 +11,10 @@ describe('PatientChat',() => {
 			expect(chat).toMatchSnapshot();
 		});	
 
+	describe("initializes state succesfully", () => {
+		it("initializes state for message and messages", () => {
+			expect(chat.state('message')).toEqual("");
+		})
+	})	
+
 })
