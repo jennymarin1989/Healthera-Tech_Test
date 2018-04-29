@@ -13,7 +13,7 @@ describe('PatientChat',() => {
 
 	describe("initializes state succesfully", () => {
 		it("initializes state for message", () => {
-			expect(chat.state('message')).toEqual("");
+			expect(chat.state('message')).toEqual("Message");
 		});
 
 		it ("initializes state for messages", () =>{
@@ -24,7 +24,7 @@ describe('PatientChat',() => {
 	describe("updates message state succesfully", () =>{
 		it("updates state of message with target event successfully", () => {
 			let input = "My message";
-			chat.instance().uptadePatientMessage(input);
+			chat.instance().updatePatientMessage(input);
 			expect(chat.state('message')).toEqual("My message");
 		});
 

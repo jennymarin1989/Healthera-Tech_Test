@@ -8,6 +8,12 @@ class PatientChat extends Component {
 				message: "Message",
 				messages: []
 			}
+			this.updatePatientMessage = this.updatePatientMessage.bind(this)
+		}
+		updatePatientMessage = (event) =>{
+			this.setState({
+				message: event.target.value
+			})
 		}
 	
     render(){
@@ -23,7 +29,7 @@ class PatientChat extends Component {
                             </div>
                         </div>
                         <div className="card-footer">
-                                <input type="text" placeholder="Message" value={this.state.message} onChange={ev=>this.setState({message:ev.target.value})} className="form-control"/>
+                                <input type="text" placeholder="Message" value={this.state.message} onChange={this.updatePatientMessage} className="form-control"/>
                                 <br/>
                                 <button className="btn btn-primary form-control">Send</button>
                         </div>
