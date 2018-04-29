@@ -2,7 +2,13 @@ import React, { Component } from 'react';
 
 
 class PatientChat extends Component {
-    
+		constructor(){
+			super();
+			this.state ={
+				message: ""
+			}
+		}
+	
     render(){
         return(
             <div className="container">
