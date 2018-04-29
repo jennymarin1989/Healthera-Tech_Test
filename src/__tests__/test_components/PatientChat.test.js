@@ -13,6 +13,10 @@ describe('PatientChat',() => {
 			expect(chat).toMatchSnapshot();
 		});	
 
+		it("renders component successfully", ()=>{
+			expect(chat.find('SubmitButton').exists()).toBe(true);
+		})
+
 	describe("initializes state succesfully", () => {
 		it("initializes state for message", () => {
 			expect(chat.state('message')).toEqual("Message");
@@ -34,9 +38,11 @@ describe('PatientChat',() => {
 		it("pushes a message into messages state when click send button", () => {
 			let mockMessage = jest.fn();
 			let submitMessage = shallow(<SubmitButton sendMessage={mockMessage} />)
+			let text = ["Hello"]
 			submitMessage.find('.send-msg').simulate('click');
 			chat.instance().sendMessage(text);
 			expect(mockMessage).toBeCalled();
+			expect(state('messages')).toContain("Hello");
 		})
 	})
 
