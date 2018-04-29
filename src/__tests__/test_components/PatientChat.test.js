@@ -34,8 +34,7 @@ describe('PatientChat',() => {
 		it("pushes a message into messages state when click send button", () => {
 			let mockMessage = jest.fn();
 			let submitMessage = shallow(<SubmitButton sendMessage={mockMessage} />)
-			const node = this.SubmitButton;
-			submitMessage.find('.send-msg').simulate(node);
+			submitMessage.find('.send-msg').simulate('click');
 			chat.instance().sendMessage(text);
 			expect(mockMessage).toBeCalled();
 		})

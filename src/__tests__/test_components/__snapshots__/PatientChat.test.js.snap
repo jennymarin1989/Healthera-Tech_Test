@@ -50,6 +50,10 @@ ShallowWrapper {
                                         value="Message"
                                 />
                                 <br />
+                                <SubmitButton
+                                        id="send-msg"
+                                        name="Send"
+                                />
                         </div>
                 </div>
         </div>
@@ -92,6 +96,10 @@ ShallowWrapper {
                                         value="Message"
                               />
                               <br />
+                              <SubmitButton
+                                        id="send-msg"
+                                        name="Send"
+                              />
                     </div>
           </div>
 </div>,
@@ -130,6 +138,10 @@ ShallowWrapper {
                                     value="Message"
                         />
                         <br />
+                        <SubmitButton
+                                    id="send-msg"
+                                    name="Send"
+                        />
             </div>
 </div>,
           "className": "col-4",
@@ -165,6 +177,10 @@ ShallowWrapper {
                                 value="Message"
                 />
                 <br />
+                <SubmitButton
+                                id="send-msg"
+                                name="Send"
+                />
 </div>,
             ],
             "className": "card",
@@ -240,6 +256,10 @@ ShallowWrapper {
                     value="Message"
 />,
                   <br />,
+                  <SubmitButton
+                    id="send-msg"
+                    name="Send"
+/>,
                 ],
                 "className": "card-footer",
               },
@@ -268,6 +288,18 @@ ShallowWrapper {
                   "ref": null,
                   "rendered": null,
                   "type": "br",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "id": "send-msg",
+                    "name": "Send",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
                 },
               ],
               "type": "div",
@@ -320,6 +352,10 @@ ShallowWrapper {
                                                   value="Message"
                                         />
                                         <br />
+                                        <SubmitButton
+                                                  id="send-msg"
+                                                  name="Send"
+                                        />
                               </div>
                     </div>
           </div>
@@ -362,6 +398,10 @@ ShallowWrapper {
                                                 value="Message"
                                     />
                                     <br />
+                                    <SubmitButton
+                                                id="send-msg"
+                                                name="Send"
+                                    />
                         </div>
             </div>
 </div>,
@@ -400,6 +440,10 @@ ShallowWrapper {
                                           value="Message"
                             />
                             <br />
+                            <SubmitButton
+                                          id="send-msg"
+                                          name="Send"
+                            />
               </div>
 </div>,
             "className": "col-4",
@@ -435,6 +479,10 @@ ShallowWrapper {
                                     value="Message"
                   />
                   <br />
+                  <SubmitButton
+                                    id="send-msg"
+                                    name="Send"
+                  />
 </div>,
               ],
               "className": "card",
@@ -510,6 +558,10 @@ ShallowWrapper {
                       value="Message"
 />,
                     <br />,
+                    <SubmitButton
+                      id="send-msg"
+                      name="Send"
+/>,
                   ],
                   "className": "card-footer",
                 },
@@ -538,6 +590,18 @@ ShallowWrapper {
                     "ref": null,
                     "rendered": null,
                     "type": "br",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "id": "send-msg",
+                      "name": "Send",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
                   },
                 ],
                 "type": "div",
