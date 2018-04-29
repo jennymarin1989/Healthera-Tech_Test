@@ -39,10 +39,11 @@ describe("Patients", () => {
 	describe("Updates states successfully", () => {
 		it("changes state of selectedOption from 0 to option", () => {
 			let option = [
-					"Helen ruiz",
+				"Helen ruiz",
+				"Dana Smith"
 			]
 		patients.instance().onSelectedPatient(option);
-		expect(patients.state('selectedOption')).toEqual(["Helen ruiz"]);
+		expect(patients.state('selectedOption')).toMatchObject(option);
 		});
 	});	
 	
