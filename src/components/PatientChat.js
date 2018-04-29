@@ -12,11 +12,20 @@ class PatientChat extends Component {
 			}
 			this.updatePatientMessage = this.updatePatientMessage.bind(this)
 		}
+		
 		updatePatientMessage = (event) =>{
 			this.setState({
 				message: event.target.value
 			});
 		}
+		
+		sendMessage = (text) =>{
+      var newMessage = this.state.messages.slice()
+      newMessage.push(this.state.message)
+      this.setState({
+        messages: newMessage
+      })
+    }
 
     render(){
         return(
@@ -37,6 +46,7 @@ class PatientChat extends Component {
                                 <SubmitButton
 																	name={"Send"}
 																	id={"send-msg"}
+
 																/>
                         </div>
                     </div>
