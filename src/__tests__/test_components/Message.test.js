@@ -4,7 +4,8 @@ import toJson from 'enzyme-to-json';
 import Message from '../../components/Message';
 
 
-describe("Message", () => {
+describe("Messages", () => {
+
     let message = shallow(<Message />)
   
    it('renders correctly', () => {
@@ -12,8 +13,8 @@ describe("Message", () => {
 	 }); 
 	 
 	 describe("Initialiazes state", () => {
-		 it("initialiazes message state", ()=>{
-			 expect(message).state('messageList').toEqual("");
+		 it("initializes message state", ()=>{
+			 expect(message.state('messageList')).toEqual("");
 		 })
 	 });
 
