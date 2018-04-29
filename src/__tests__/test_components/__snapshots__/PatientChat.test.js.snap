@@ -51,6 +51,7 @@ ShallowWrapper {
                                 />
                                 <br />
                                 <SubmitButton
+                                        handleSubmit={[Function]}
                                         id="send-msg"
                                         name="Send"
                                 />
@@ -97,6 +98,7 @@ ShallowWrapper {
                               />
                               <br />
                               <SubmitButton
+                                        handleSubmit={[Function]}
                                         id="send-msg"
                                         name="Send"
                               />
@@ -139,6 +141,7 @@ ShallowWrapper {
                         />
                         <br />
                         <SubmitButton
+                                    handleSubmit={[Function]}
                                     id="send-msg"
                                     name="Send"
                         />
@@ -178,6 +181,7 @@ ShallowWrapper {
                 />
                 <br />
                 <SubmitButton
+                                handleSubmit={[Function]}
                                 id="send-msg"
                                 name="Send"
                 />
@@ -257,6 +261,7 @@ ShallowWrapper {
 />,
                   <br />,
                   <SubmitButton
+                    handleSubmit={[Function]}
                     id="send-msg"
                     name="Send"
 />,
@@ -294,6 +299,7 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "function",
                   "props": Object {
+                    "handleSubmit": [Function],
                     "id": "send-msg",
                     "name": "Send",
                   },
@@ -353,6 +359,7 @@ ShallowWrapper {
                                         />
                                         <br />
                                         <SubmitButton
+                                                  handleSubmit={[Function]}
                                                   id="send-msg"
                                                   name="Send"
                                         />
@@ -399,6 +406,7 @@ ShallowWrapper {
                                     />
                                     <br />
                                     <SubmitButton
+                                                handleSubmit={[Function]}
                                                 id="send-msg"
                                                 name="Send"
                                     />
@@ -441,6 +449,7 @@ ShallowWrapper {
                             />
                             <br />
                             <SubmitButton
+                                          handleSubmit={[Function]}
                                           id="send-msg"
                                           name="Send"
                             />
@@ -480,6 +489,7 @@ ShallowWrapper {
                   />
                   <br />
                   <SubmitButton
+                                    handleSubmit={[Function]}
                                     id="send-msg"
                                     name="Send"
                   />
@@ -559,6 +569,7 @@ ShallowWrapper {
 />,
                     <br />,
                     <SubmitButton
+                      handleSubmit={[Function]}
                       id="send-msg"
                       name="Send"
 />,
@@ -596,6 +607,7 @@ ShallowWrapper {
                     "key": undefined,
                     "nodeType": "function",
                     "props": Object {
+                      "handleSubmit": [Function],
                       "id": "send-msg",
                       "name": "Send",
                     },

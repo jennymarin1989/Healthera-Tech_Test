@@ -22,7 +22,7 @@ ShallowWrapper {
           header="Healthera"
 />,
         <SubmitButton
-          handlePortalClicked={[Function]}
+          handleSubmit={[Function]}
           id="submitButton"
           name="Patients"
 />,
@@ -47,7 +47,7 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "function",
         "props": Object {
-          "handlePortalClicked": [Function],
+          "handleSubmit": [Function],
           "id": "submitButton",
           "name": "Patients",
         },
@@ -70,7 +70,7 @@ ShallowWrapper {
             header="Healthera"
 />,
           <SubmitButton
-            handlePortalClicked={[Function]}
+            handleSubmit={[Function]}
             id="submitButton"
             name="Patients"
 />,
@@ -95,7 +95,7 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "function",
           "props": Object {
-            "handlePortalClicked": [Function],
+            "handleSubmit": [Function],
             "id": "submitButton",
             "name": "Patients",
           },

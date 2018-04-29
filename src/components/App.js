@@ -26,7 +26,7 @@ class App extends Component {
 				 <SubmitButton 
 					name={"Patients"}
 					id={"submitButton"}
-					handlePortalClicked = {this.handlePortalClicked}
+					handleSubmit = {this.handlePortalClicked}
 				  />
 				  {this.state.PatientPortal ? 
 						<Patients />:
