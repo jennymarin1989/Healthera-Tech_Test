@@ -35,9 +35,9 @@ class PatientChat extends Component {
                 <div className="col-4">
                     <div className="card">
                         <div className="card-body">
-                            <div className="card-title">Messages</div>
-															<div>
-															 </div>
+                            <div className="card-title">
+																<h3>Messages</h3>
+														</div>
                             <hr/>
                             <div className="messages">
 															{this.state.messages.map(function(message,i) {
@@ -50,7 +50,6 @@ class PatientChat extends Component {
                         </div>
                         <div className="card-footer">
                                 <input type="text" placeholder="Message" value={this.state.message} onChange={this.updatePatientMessage} className="form-control"/>
-                                <br/>
                                 <SubmitButton
 																	name={"Send"}
 																	id={"send-msg"}
