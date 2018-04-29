@@ -18,7 +18,16 @@ describe('PatientChat',() => {
 
 		it ("initializes state for messages", () =>{
 			expect(chat.state('messages')).toEqual([]);
-		})
+		});
+	});	
+
+	describe("updates message state succesfully", () =>{
+		it("updates state of message with target event successfully", () => {
+			let input = "My message";
+			chat.instance().uptadePatientMessage(input);
+			expect(chat.state('message')).toEqual("My message");
+		});
+
 	})	
 
 })

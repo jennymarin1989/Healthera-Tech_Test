@@ -5,7 +5,7 @@ class PatientChat extends Component {
 		constructor(){
 			super();
 			this.state ={
-				message: "",
+				message: "Message",
 				messages: []
 			}
 		}
@@ -23,7 +23,7 @@ class PatientChat extends Component {
                             </div>
                         </div>
                         <div className="card-footer">
-                                <input type="text" placeholder="Message" className="form-control"/>
+                                <input type="text" placeholder="Message" value={this.state.message} onChange={ev=>this.setState({message:ev.target.value})} className="form-control"/>
                                 <br/>
                                 <button className="btn btn-primary form-control">Send</button>
                         </div>
