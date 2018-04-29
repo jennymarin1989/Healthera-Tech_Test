@@ -34,7 +34,7 @@ ShallowWrapper {
           placeholder="Search for a patient"
           value=""
 />,
-        <Message />,
+        <PatientChat />,
       ],
     },
     "ref": null,
@@ -104,7 +104,7 @@ ShallowWrapper {
             placeholder="Search for a patient"
             value=""
 />,
-          <Message />,
+          <PatientChat />,
         ],
       },
       "ref": null,
