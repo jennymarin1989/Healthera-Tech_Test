@@ -12,8 +12,12 @@ describe('PatientChat',() => {
 		});	
 
 	describe("initializes state succesfully", () => {
-		it("initializes state for message and messages", () => {
+		it("initializes state for message", () => {
 			expect(chat.state('message')).toEqual("");
+		});
+
+		it ("initializes state for messages", () =>{
+			expect(chat.state('messages')).toEqual([]);
 		})
 	})	
 
