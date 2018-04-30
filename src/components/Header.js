@@ -3,11 +3,11 @@ import Title from './styling/title';
 
 
 const Header = (props) => {
-    return (
-        <Title>
-        <h1 id={props.id}> {props.header} </h1>
-        </Title>
-    )
+  return (
+		<Title>
+		<h1 id={props.id}> {props.header} </h1>
+		</Title>
+	)
 };
 
 export default Header;

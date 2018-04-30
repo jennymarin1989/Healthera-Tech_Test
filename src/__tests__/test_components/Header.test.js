@@ -6,11 +6,15 @@ import renderer from 'react-test-renderer';
 
 describe('Header', () => {
 
-    let header = shallow(<Header />);
+  let header;
+
+    beforeEach(()=>{
+      header = shallow(<Header />);
+    });
 
   it('renders correctly', () =>{
 		expect(header).toMatchSnapshot();
-  })
+  });
 
   describe('renders component correctly', () => {
     it("renders Title component correctly", () =>{
@@ -19,5 +23,6 @@ describe('Header', () => {
       .toJSON();
     expect(title).toMatchSnapshot();
     })  
-  })  
+  });
+   
 });
