@@ -6,7 +6,11 @@ import PatientChat from '../../components/PatientChat';
 
 describe("Patients", () => {
 
-	let patients = shallow(<Patients />)
+	let patients;
+
+	beforeEach(()=>{
+		patients = shallow(<Patients />);
+	});
 
    it('renders components correctly',() =>{
        expect(patients).toMatchSnapshot();
@@ -21,35 +25,42 @@ describe("Patients", () => {
     });
 
  describe("renders correctly", () => {
+
    it("render header component correctly", () => {
-       expect(patients.find('Header').exists()).toBe(true);
+      expect(patients.find('Header').exists()).toBe(true);
 	 });
 	 
 	 it('render Message component correctly', () => {
 		 expect(patients.find('PatientChat').exists()).toBe(true);
 	 })
+
  });
 
  describe("initializes state successfully", () => {
-	it('initializes selectedOption as false', () => {
-		expect(patients.state('selectedOption')).toEqual("");
-	});
-  });	
+
+		it('initializes selectedOption as false', () => {
+			expect(patients.state('selectedOption')).toEqual("");
+		});
+
+});	
 
 	describe("Updates states successfully", () => {
+
 		it("changes state of selectedOption from 0 to option", () => {
-			let option = [
-				"Helen ruiz",
-				"Dana Smith"
-			]
+			let option = {
+				value: "Helen ruiz", label:"Helen ruiz"
+			}
 		patients.instance().onSelectedPatient(option);
-		expect(patients.state('selectedOption')).toMatchObject(option);
+		expect(patients.state('selectedOption')).Equal("Helen ruiz");
 		});
+
 	});	
 	
 	describe("renders dropdown component successfully" ,() => {
+
 		it("renders dropdown with patients name successfylly", () => {
 			expect(patients.find('Dropdown').exists()).toBe(true);
 		});
+		
 	})	
 });

@@ -21,6 +21,7 @@ class Patients extends Component {
 		this.setState({
 			selectedOption: option,
 		});
+			
 	}
 
 	render(){
