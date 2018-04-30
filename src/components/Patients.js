@@ -35,7 +35,7 @@ class Patients extends Component {
 					id={"patient-page"}
 					/> 
 				 </FlexView>
-				 <FlexView vAlignContent='left' hAlignContent='center' style={{ marginLeft: '125px', marginRight:'50px',height:'20px', width: '120%' } }>
+				 <FlexView vAlignContent='center' hAlignContent='left' style={{ marginLeft: '125px', marginRight:'50px',height:'20px', width: '120%' } }>
 						<Dropdown  
 								options = {data}
 								onChange = {this.onSelectedPatient}

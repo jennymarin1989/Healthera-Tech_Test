@@ -31,15 +31,15 @@ class PatientChat extends Component {
 
     render(){
         return(
-            <div className="form-control">
-            <div className="form-group">
+            <div className="form-horizontal">
+            <div className="form-group has-success has-feedback">
                 <div className="col-16">
                     <div className="card">
                             <div className="card-title">
 																<h3>Messages</h3>
 														</div>
                             <hr/>
-														<div class="help-block"></div>
+														
                             <div className="messages" style={{marginTop:'20px'}}>
 															{this.state.messages.map(function(message,i) {
 																return (
@@ -50,7 +50,7 @@ class PatientChat extends Component {
                             </div>
                         </div>
                         <div className="card-footer">
-                                <input type="text" class="form-control" placeholder="Message" value={this.state.message} onChange={this.updatePatientMessage} className="form-control"/>
+                                <input type="text" className="form-control" placeholder="Message" value={this.state.message} onChange={this.updatePatientMessage}/>
                                 <SubmitButton
 																	name={"Send"}
 																	id={"send-msg"}
