@@ -8,7 +8,7 @@ class App extends Component {
 
 	constructor(){
 		super();
-		this.state ={
+		this.state = {
 			PatientPortal: false,
 		}
 		this.handlePortalClicked = this.handlePortalClicked.bind(this);
@@ -24,25 +24,25 @@ class App extends Component {
      return(
 					<Grid>
 						<Row>
-						<Col xs="6" sm="4">	
-					<Header 
-						header={"Healthera"}
-						id={"homepage"}
-					/>
-					<SubmitButton 
-						name={"Patients"}
-						id={"submitButton"}
-						newClass={"btn btn-success"}
-						handleSubmit = {this.handlePortalClicked}
-					/>
-						{this.state.PatientPortal ? 
-							<Patients />:
-							null	
-						}
-						</Col>
+							<Col xs="6" sm="4">	
+								<Header 
+									header={"Healthera"}
+									id={"homepage"}
+								/>
+								<SubmitButton 
+									name={"Patients"}
+									id={"submitButton"}
+									newClass={"btn btn-success"}
+									handleSubmit = {this.handlePortalClicked}
+								/>
+									{this.state.PatientPortal ? 
+										<Patients />:
+										null	
+									}
+							</Col>
 						</Row>
 					 </Grid>	
-        ) 
+        	) 
     }
 }
 export default App;
