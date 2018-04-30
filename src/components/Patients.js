@@ -18,13 +18,10 @@ class Patients extends Component {
 	}
 
 	onSelectedPatient = (option) => {
-		console.log(option)
 		this.setState({
 			selectedOption: option,
 		});
-			
 	}
-
 
 	render(){
 
@@ -32,20 +29,23 @@ class Patients extends Component {
 		
 		return (
 			<div>
+				
 				<FlexView hAlignContent='left'  style={{ marginLeft: '100px' }}>
 					<Header 
-					header = {"Patients"}
-					id={"patient-page"}
+						header = {"Patients"}
+						id={"patient-page"}
 					/> 
 				 </FlexView>
-				 <FlexView vAlignContent='center' hAlignContent='left' style={{ marginLeft: '125px', marginRight:'50px',height:'20px', width: '120%' } }>
-						<Dropdown  
-								options = {data}
-								onChange = {this.onSelectedPatient}
-								value = {defaultOption}
-								placeholder = "Search for a patient"
-								/>
-					</FlexView>		
+
+				<FlexView vAlignContent='center' hAlignContent='left' style={{ marginLeft: '125px', marginRight:'50px',height:'20px', width: '120%' } }>
+					<Dropdown  
+						options = {data}
+						onChange = {this.onSelectedPatient}
+						value = {defaultOption}
+						placeholder = "Search for a patient"
+					/>
+					</FlexView>	
+
 					<div style={{marginLeft: "600px", width:'150%', marginTop:'-100px'}}>
 				 		<PatientChat
 						 />	

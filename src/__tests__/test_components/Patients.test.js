@@ -10,7 +10,7 @@ describe("Patients", () => {
 
    it('renders components correctly',() =>{
        expect(patients).toMatchSnapshot();
-   }) ;
+   });
    
    it("renders patients from data.jsn", () =>{
     let patientInfo = [
