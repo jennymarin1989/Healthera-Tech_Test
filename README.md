@@ -5,6 +5,40 @@ The main goal of this Tech Test is creating a clone of the Healthera patient por
 <img src="https://user-images.githubusercontent.com/29259526/39251212-a8e9a258-489a-11e8-8265-ab9bde9f14b1.png" width="650" ="align-center">
 </p>
 
+## User stories
+
+```
+As a pharmacist
+So I can give the patient the right information about his prescription
+I want to be able to **access** to the Patient Portal
+
+As a pharmacist
+So I can see all the patients using the app
+I want to be able to **search** a patient
+
+As a pharmacist
+So I can update the patient with specific information
+I want to **select** the patient to send a message
+
+As a pharmacist
+So I can provide the right information about patient's prescription
+I want to be able to **send** a message to the selected patient.
+
+As a pharmacist 
+So I can keep a record of the information given to the patient
+I want to be able to **view** all the messages on the screen
+
+To be Completed:
+
+As a user
+so I can check the patients who have a user verification
+I want to be able to view the verified or unverified patients when clicking a button
+
+As a user
+So I can see my the patient's details
+I want to be able to select a tab and display all the information
+
+```
 
 ## Approach
 
@@ -26,81 +60,32 @@ So, having an idea of my MVP and the requirements, I have started to plan the im
 
 I've followed Test Driven Development principles, starting with basic tests to render a basic component like header and testing more complicated units of code later on. My idea was to reuse react components to keep my code DRY, therefore, I created parent and child components so I was able to pass parameters from parent to children.
 
-To complete this tech test, it wasn't required the use of database or API's, so to keep patients names I used datda.json file from where I retrieve the patient data when need it
+To complete this tech test, it wasn't required the use of database or API's, so to keep patients names I used datda.json file from where I retrieve the patient data when need it. In this case only one patient was saved into data.json, I need to improve funtionality of chatbox, so It clears when selecting a different patient.
 
+This project was developed in 3 and half days.
 
-## User stories
+Screenshot of the app:
 
-```
-As a pharmacist
-So I can give the patient the right information about his prescription
-I want to be able to **access** to the Patient Portal
+<p>
+<img src="https://user-images.githubusercontent.com/29259526/39423547-503cadc0-4c6a-11e8-8a8b-2b3447532b40.png" width="500" ="align-center">
+</p>
 
-As a pharmacist
-So I can see all the patients using the app
-I want to be able to **search** a patient
+<p>
+<img src="https://user-images.githubusercontent.com/29259526/39423585-85fab1e6-4c6a-11e8-8edb-8d459eeb9bcc.png" width="500" ="align-center">
+</p>
 
-As a pharmacist
-So I can update the patient with specific information
-I want to **select** the patient to send a message
+<p>
+<img src="https://user-images.githubusercontent.com/29259526/39423618-b9fd6de4-4c6a-11e8-8e25-64cf2932230e.png" width="500" ="align-center">
+</p>
 
-As a pharmacist
-So I can provide the right information about patient's prescription
-I want to be able to **send** a message to the selected patient.
+<p>
+<img src="https://user-images.githubusercontent.com/29259526/39423726-29068c8e-4c6b-11e8-8b83-a961ff8fc4e1.png" width="500" ="align-center">
+</p>
 
-As a pharmacist 
-So I can keep a record of the information given to the patient
-I want to be able to **view** all the messages on the screen
-
-To be Completed:
-
-As a user
-so I can check the patients who have a user verification
-I want to be able to view the verified or unverified patients when clicking a button
-
-As a user
-So I can see my the patient's details
-I want to be able to select a tab and display all the information
-
-```
-## User stories
-
-```
-As a pharmacist
-So I can give the patient the right information about his prescription
-I want to be able to **access** to the Patient Portal
-
-As a pharmacist
-So I can see all the patients using the app
-I want to be able to **search** a patient
-
-As a pharmacist
-So I can update the patient with specific information
-I want to **select** the patient to send a message
-
-As a pharmacist
-So I can provide the right information about patient's prescription
-I want to be able to **send** a message to the selected patient.
-
-As a pharmacist 
-So I can keep a record of the information given to the patient
-I want to be able to **view** all the messages on the screen
-
-To be Completed:
-
-As a user
-so I can check the patients who have a user verification
-I want to be able to view the verified or unverified patients when clicking a button
-
-As a user
-So I can see my the patient's details
-I want to be able to select a tab and display all the information
-
-```
 
 ## Getting started
 
-this instructions will get you a copy of the project up on your local machine for development and testing purposes
+This instructions will get you a copy of the project up on your local machine for development and testing purposes
 
 ### Installing
  

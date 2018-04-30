@@ -36,6 +36,7 @@ render(props){
         <div className="col-16">
          <div className="card">
             <div className="card-title" >
+              <h3>Messages</h3><hr/>
               <h4 style={{backgroundColor:'MediumSeaGreen'}}>{this.props.patient}</h4>
               </div>
                 <div className="messages" style={{marginTop:'20px'}}>
