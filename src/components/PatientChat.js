@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import SubmitButton from './SubmitButton';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
@@ -30,26 +31,26 @@ class PatientChat extends Component {
 
     render(){
         return(
-            <div className="container">
-            <div className="row">
-                <div className="col-4">
+            <div className="form-control">
+            <div className="form-group">
+                <div className="col-16">
                     <div className="card">
-                        <div className="card-body">
                             <div className="card-title">
 																<h3>Messages</h3>
 														</div>
                             <hr/>
-                            <div className="messages" style={{marginTop:'10px', backgroundColor:'green'}}>
+														<div class="help-block"></div>
+                            <div className="messages" style={{marginTop:'20px'}}>
 															{this.state.messages.map(function(message,i) {
 																return (
-																		<li key={i}>{message}<hr/></li>
+																		<ul key={i}>{message}<hr/></ul>
 																			)
 																})
 															}   
                             </div>
                         </div>
                         <div className="card-footer">
-                                <input type="text" placeholder="Message" value={this.state.message} onChange={this.updatePatientMessage} className="form-control"/>
+                                <input type="text" class="form-control" placeholder="Message" value={this.state.message} onChange={this.updatePatientMessage} className="form-control"/>
                                 <SubmitButton
 																	name={"Send"}
 																	id={"send-msg"}
@@ -57,7 +58,7 @@ class PatientChat extends Component {
 																/>
                         </div>
                     </div>
-                </div>
+               
             </div>
         </div>
 

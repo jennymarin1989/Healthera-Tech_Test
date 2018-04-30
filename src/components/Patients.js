@@ -35,7 +35,7 @@ class Patients extends Component {
 					id={"patient-page"}
 					/> 
 				 </FlexView>
-				 <FlexView vAlignContent='left' hAlignContent='center' style={{ marginLeft: '125px', marginRight:'50px',height:'20px', width: '30%' } }>
+				 <FlexView vAlignContent='left' hAlignContent='center' style={{ marginLeft: '125px', marginRight:'50px',height:'20px', width: '120%' } }>
 						<Dropdown  
 								options = {data}
 								onChange = {this.onSelectedPatient}
@@ -43,7 +43,7 @@ class Patients extends Component {
 								placeholder = "Search for a patient"
 								/>
 					</FlexView>		
-					<div style={{marginLeft: "600px", width:'50%', marginTop:'-100px'}}>
+					<div style={{marginLeft: "600px", width:'150%', marginTop:'-100px'}}>
 				 		<PatientChat />	
 					</div>	  
 			</div>    
