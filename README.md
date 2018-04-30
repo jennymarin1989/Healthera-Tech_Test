@@ -25,6 +25,20 @@ As a pharmacist
 So I can provide the right information about patient's prescription
 I want to be able to **send** a message to the selected patient.
 
+As a pharmacist 
+So I can keep a record of the information given to the patient
+I want to be able to **view** all the messages on the screen
+
+Dificult features:
+
+As a user
+so I can check the patients who have a user verification
+I want to be able to view the verified or unverified patients when clicking a button
+
+As a user
+So I can see my the patient's details
+I want to be able to select a tab and display all the information
+
 ```
 
 ## Approach

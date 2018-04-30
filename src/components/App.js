@@ -24,7 +24,7 @@ class App extends Component {
      return(
 				<Grid>
 					<Row>
-						<Col xs="6" sm="4">	
+						<Col xs={6} sm={4}>	
 							<Header 
 								header={"Healthera"}
 								id={"homepage"}

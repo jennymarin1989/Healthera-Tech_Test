@@ -21,7 +21,7 @@ class Patients extends Component {
 		this.setState({
 			selectedOption: option,
 		});
-	  	Object.values(option)[0]
+	  let patient = Object.values(option)[0]
 	}
 	
 
