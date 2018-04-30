@@ -60,7 +60,7 @@ So, having an idea of my MVP and the requirements, I have started to plan the im
 
 I've followed Test Driven Development principles, starting with basic tests to render a basic component like header and testing more complicated units of code later on. My idea was to reuse react components to keep my code DRY, therefore, I created parent and child components so I was able to pass parameters from parent to children.
 
-To complete this tech test, it wasn't required the use of database or API's, so to keep patients names I used datda.json file from where I retrieve the patient data when need it. In this case only one patient was saved into data.json, I need to improve funtionality of chatbox, so It clears when selecting a different patient.
+To complete this tech test, it wasn't required the use of database or API's, so to keep patients names I used datda.json file from where I retrieved the patient data when need it. In this case only one patient was saved into data.json, I need to improve funtionality of chatbox, so It clears when selecting a different patient.
 
 This project was developed in 3 and half days.
 
