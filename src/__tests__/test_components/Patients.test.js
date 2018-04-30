@@ -51,7 +51,7 @@ describe("Patients", () => {
 				value: "Helen ruiz", label:"Helen ruiz"
 			}
 		patients.instance().onSelectedPatient(option);
-		expect(patients.state('selectedOption')).Equal("Helen ruiz");
+		expect(patients.state('selectedOption')).toMatchObject(option);
 		});
 
 	});	

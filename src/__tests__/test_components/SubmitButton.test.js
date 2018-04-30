@@ -23,7 +23,7 @@ describe("SubmitButton", () => {
 	describe("renders component correctly", () => {
 		it("renders PortalButton component correctly", () => {
 			let patientButton = renderer
-			.create(<PortalButton>Patient Portal</PortalButton>)
+			.create(<button>Patient Portal</button>)
       		.toJSON();
    			 expect(patientButton).toMatchSnapshot();
 		})

@@ -35,8 +35,8 @@ render(props){
       <div className="form-group has-success has-feedback">
         <div className="col-16">
          <div className="card">
-            <div className="card-title">
-              <h4>Messages</h4>
+            <div className="card-title" >
+              <h4 style={{backgroundColor:'MediumSeaGreen'}}>{this.props.patient}</h4>
               </div>
                 <div className="messages" style={{marginTop:'20px'}}>
                   {this.state.messages.map(function(message,i) {

@@ -21,8 +21,9 @@ class Patients extends Component {
 		this.setState({
 			selectedOption: option,
 		});
-			
+	  	Object.values(option)[0]
 	}
+	
 
 	render(){
 
@@ -49,6 +50,7 @@ class Patients extends Component {
 
 					<div style={{marginLeft: "600px", width:'150%', marginTop:'-100px'}}>
 				 		<PatientChat
+						  patient={Object.values(this.state.selectedOption)[0]}
 						 />	
 					</div>	  
 			</div>    

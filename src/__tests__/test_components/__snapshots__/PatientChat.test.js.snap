@@ -29,9 +29,13 @@ ShallowWrapper {
                         <div
                                 className="card-title"
                         >
-                                <h4>
-                                        Messages
-                                </h4>
+                                <h4
+                                        style={
+                                                Object {
+                                                        "backgroundColor": "MediumSeaGreen",
+                                                      }
+                                        }
+                                />
                         </div>
                         <div
                                 className="messages"
@@ -80,9 +84,13 @@ ShallowWrapper {
                     <div
                               className="card-title"
                     >
-                              <h4>
-                                        Messages
-                              </h4>
+                              <h4
+                                        style={
+                                                  Object {
+                                                            "backgroundColor": "MediumSeaGreen",
+                                                          }
+                                        }
+                              />
                     </div>
                     <div
                               className="messages"
@@ -128,9 +136,13 @@ ShallowWrapper {
               <div
                             className="card-title"
               >
-                            <h4>
-                                          Messages
-                            </h4>
+                            <h4
+                                          style={
+                                                        Object {
+                                                                      "backgroundColor": "MediumSeaGreen",
+                                                                    }
+                                          }
+                            />
               </div>
               <div
                             className="messages"
@@ -174,9 +186,13 @@ ShallowWrapper {
                 <div
                   className="card-title"
 >
-                  <h4>
-                                    Messages
-                  </h4>
+                  <h4
+                                    style={
+                                                      Object {
+                                                                        "backgroundColor": "MediumSeaGreen",
+                                                                      }
+                                    }
+                  />
 </div>,
                 <div
                   className="messages"
@@ -198,9 +214,13 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": <h4>
-                    Messages
-</h4>,
+                  "children": <h4
+                    style={
+                                        Object {
+                                                            "backgroundColor": "MediumSeaGreen",
+                                                          }
+                    }
+/>,
                   "className": "card-title",
                 },
                 "ref": null,
@@ -209,10 +229,13 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": "Messages",
+                    "children": undefined,
+                    "style": Object {
+                      "backgroundColor": "MediumSeaGreen",
+                    },
                   },
                   "ref": null,
-                  "rendered": "Messages",
+                  "rendered": null,
                   "type": "h4",
                 },
                 "type": "div",
@@ -316,9 +339,13 @@ ShallowWrapper {
                               <div
                                         className="card-title"
                               >
-                                        <h4>
-                                                  Messages
-                                        </h4>
+                                        <h4
+                                                  style={
+                                                            Object {
+                                                                      "backgroundColor": "MediumSeaGreen",
+                                                                    }
+                                                  }
+                                        />
                               </div>
                               <div
                                         className="messages"
@@ -367,9 +394,13 @@ ShallowWrapper {
                         <div
                                     className="card-title"
                         >
-                                    <h4>
-                                                Messages
-                                    </h4>
+                                    <h4
+                                                style={
+                                                            Object {
+                                                                        "backgroundColor": "MediumSeaGreen",
+                                                                      }
+                                                }
+                                    />
                         </div>
                         <div
                                     className="messages"
@@ -415,9 +446,13 @@ ShallowWrapper {
                 <div
                                 className="card-title"
                 >
-                                <h4>
-                                                Messages
-                                </h4>
+                                <h4
+                                                style={
+                                                                Object {
+                                                                                "backgroundColor": "MediumSeaGreen",
+                                                                              }
+                                                }
+                                />
                 </div>
                 <div
                                 className="messages"
@@ -461,9 +496,13 @@ ShallowWrapper {
                   <div
                     className="card-title"
 >
-                    <h4>
-                                        Messages
-                    </h4>
+                    <h4
+                                        style={
+                                                            Object {
+                                                                                "backgroundColor": "MediumSeaGreen",
+                                                                              }
+                                        }
+                    />
 </div>,
                   <div
                     className="messages"
@@ -485,9 +524,13 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": <h4>
-                      Messages
-</h4>,
+                    "children": <h4
+                      style={
+                                            Object {
+                                                                  "backgroundColor": "MediumSeaGreen",
+                                                                }
+                      }
+/>,
                     "className": "card-title",
                   },
                   "ref": null,
@@ -496,10 +539,13 @@ ShallowWrapper {
                     "key": undefined,
                     "nodeType": "host",
                     "props": Object {
-                      "children": "Messages",
+                      "children": undefined,
+                      "style": Object {
+                        "backgroundColor": "MediumSeaGreen",
+                      },
                     },
                     "ref": null,
-                    "rendered": "Messages",
+                    "rendered": null,
                     "type": "h4",
                   },
                   "type": "div",

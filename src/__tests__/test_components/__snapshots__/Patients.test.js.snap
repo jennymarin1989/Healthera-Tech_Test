@@ -49,8 +49,7 @@ ShallowWrapper {
                     options={
                               Array [
                                         "Julian Smith",
-                                        "Helen Lopez",
-                                        "Charles stock",
+                                        "No more patients in database",
                                       ]
                     }
                     placeholder="Search for a patient"
@@ -66,7 +65,9 @@ ShallowWrapper {
                             }
           }
 >
-          <PatientChat />
+          <PatientChat
+                    patient={undefined}
+          />
 </div>,
       ],
     },
@@ -112,8 +113,7 @@ ShallowWrapper {
             options={
                         Array [
                                     "Julian Smith",
-                                    "Helen Lopez",
-                                    "Charles stock",
+                                    "No more patients in database",
                                   ]
             }
             placeholder="Search for a patient"
@@ -138,8 +138,7 @@ ShallowWrapper {
             "onChange": [Function],
             "options": Array [
               "Julian Smith",
-              "Helen Lopez",
-              "Charles stock",
+              "No more patients in database",
             ],
             "placeholder": "Search for a patient",
             "value": "",
@@ -155,7 +154,9 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": <PatientChat />,
+          "children": <PatientChat
+            patient={undefined}
+/>,
           "style": Object {
             "marginLeft": "600px",
             "marginTop": "-100px",
@@ -167,7 +168,9 @@ ShallowWrapper {
           "instance": null,
           "key": undefined,
           "nodeType": "class",
-          "props": Object {},
+          "props": Object {
+            "patient": undefined,
+          },
           "ref": null,
           "rendered": null,
           "type": [Function],
@@ -215,8 +218,7 @@ ShallowWrapper {
                         options={
                                     Array [
                                                 "Julian Smith",
-                                                "Helen Lopez",
-                                                "Charles stock",
+                                                "No more patients in database",
                                               ]
                         }
                         placeholder="Search for a patient"
@@ -232,7 +234,9 @@ ShallowWrapper {
                                   }
             }
 >
-            <PatientChat />
+            <PatientChat
+                        patient={undefined}
+            />
 </div>,
         ],
       },
@@ -278,8 +282,7 @@ ShallowWrapper {
               options={
                             Array [
                                           "Julian Smith",
-                                          "Helen Lopez",
-                                          "Charles stock",
+                                          "No more patients in database",
                                         ]
               }
               placeholder="Search for a patient"
@@ -304,8 +307,7 @@ ShallowWrapper {
               "onChange": [Function],
               "options": Array [
                 "Julian Smith",
-                "Helen Lopez",
-                "Charles stock",
+                "No more patients in database",
               ],
               "placeholder": "Search for a patient",
               "value": "",
@@ -321,7 +323,9 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": <PatientChat />,
+            "children": <PatientChat
+              patient={undefined}
+/>,
             "style": Object {
               "marginLeft": "600px",
               "marginTop": "-100px",
@@ -333,7 +337,9 @@ ShallowWrapper {
             "instance": null,
             "key": undefined,
             "nodeType": "class",
-            "props": Object {},
+            "props": Object {
+              "patient": undefined,
+            },
             "ref": null,
             "rendered": null,
             "type": [Function],
