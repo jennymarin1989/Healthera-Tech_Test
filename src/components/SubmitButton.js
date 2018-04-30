@@ -4,7 +4,7 @@ import PortalButton from './styling/portalButton';
 const SubmitButton = props => {
 
     return(
-        <PortalButton id={props.id} onClick={props.handleSubmit}>{props.name}</PortalButton>
+        <button id={props.id} class={props.newClass} onClick={props.handleSubmit}>{props.name}</button>
     );
 };
 

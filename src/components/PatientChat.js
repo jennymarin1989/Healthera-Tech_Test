@@ -38,12 +38,10 @@ class PatientChat extends Component {
                             <div className="card-title">
 																<h3>Messages</h3>
 														</div>
-                            <hr/>
-														
                             <div className="messages" style={{marginTop:'20px'}}>
 															{this.state.messages.map(function(message,i) {
 																return (
-																		<ul key={i}>{message}<hr/></ul>
+																		<ul key={i} style={{backgroundColor:'MediumSeaGreen'}}>{message}<hr/></ul>
 																			)
 																})
 															}   
@@ -54,6 +52,7 @@ class PatientChat extends Component {
                                 <SubmitButton
 																	name={"Send"}
 																	id={"send-msg"}
+																	newClass={"btn btn-success"}
 																	handleSubmit = {this.sendMessage}
 																/>
                         </div>

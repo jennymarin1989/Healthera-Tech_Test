@@ -33,6 +33,7 @@ class App extends Component {
 					<SubmitButton 
 						name={"Patients"}
 						id={"submitButton"}
+						newClass={"btn btn-success"}
 						handleSubmit = {this.handlePortalClicked}
 					/>
 						{this.state.PatientPortal ? 
