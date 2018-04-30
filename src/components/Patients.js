@@ -22,7 +22,7 @@ class Patients extends Component {
 		this.setState({
 			selectedOption: option,
 		});
-			console.log(Object.values(option)[0])
+			
 	}
 
 
@@ -47,8 +47,7 @@ class Patients extends Component {
 								/>
 					</FlexView>		
 					<div style={{marginLeft: "600px", width:'150%', marginTop:'-100px'}}>
-				 		<PatientChat 
-						//  patient={Object.values(this.state.selectedOption)[0]}
+				 		<PatientChat
 						 />	
 					</div>	  
 			</div>    
