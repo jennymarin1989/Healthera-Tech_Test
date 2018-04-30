@@ -22,7 +22,6 @@ class App extends Component {
 
     render(){ 
      return(
-        <div>
 					<Grid>
 						<Row>
 						<Col xs="6" sm="4">	
@@ -43,7 +42,6 @@ class App extends Component {
 						</Col>
 						</Row>
 					 </Grid>	
-         </div>
         ) 
     }
 }
