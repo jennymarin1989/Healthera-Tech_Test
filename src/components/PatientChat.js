@@ -49,7 +49,7 @@ class PatientChat extends Component {
 															}   
                             </div>
                         </div>
-                        <div className="card-footer">
+                        <div className="input-group">
                                 <input type="text" className="form-control" placeholder="Message" value={this.state.message} onChange={this.updatePatientMessage}/>
                                 <SubmitButton
 																	name={"Send"}
