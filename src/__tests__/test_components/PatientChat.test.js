@@ -40,7 +40,7 @@ describe('PatientChat',() => {
 			let submitMessage = shallow(<SubmitButton sendMessage={mockMessage} />)
 			let text = ["Hello"]
 			submitMessage.find('.send-msg').simulate('click');
-			chat.instance().sendMessage(text);
+			submitMessage.instance().sendMessage(text);
 			expect(mockMessage).toBeCalled();
 			expect(state('messages')).toContain("Hello");
 		})

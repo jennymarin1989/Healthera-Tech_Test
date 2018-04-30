@@ -15,7 +15,7 @@ describe("SubmitButton", () => {
 		it('should call the handleDataSumittedButton function', ()=>{
 			let mockhandlePortalClicked = jest.fn()
 			let submit = shallow(<SubmitButton handlePortalClicked = {mockhandlePortalClicked}/>);
-			submit.find('#submitButton').simulate('click');
+			submit.find('#submitButton').simulate('click', 'using prototype');
 			expect(mockhandlePortalClicked).toBeCalled();
 		})
 	});
