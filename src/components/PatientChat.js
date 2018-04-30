@@ -5,8 +5,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 class PatientChat extends Component {
-		constructor(){
-			super();
+		constructor(props){
+			super(props);
 			this.state ={
 				message: "",
 				messages: []
@@ -26,17 +26,16 @@ class PatientChat extends Component {
       this.setState({
         messages: newMessage
 			})
-			console.log(this.state.messages)
     }
 
-    render(){
-        return(
-            <div className="form-horizontal">
-            <div className="form-group has-success has-feedback">
-                <div className="col-16">
-                    <div className="card">
-                            <div className="card-title">
-																<h3>Messages</h3>
+	render(props){
+		return(
+      <div className="form-horizontal">
+      <div className="form-group has-success has-feedback">
+        <div className="col-16">
+          <div className="card">
+              <div className="card-title">
+																{/* <h3>{this.props.patient}</h3> */}
 														</div>
                             <div className="messages" style={{marginTop:'20px'}}>
 															{this.state.messages.map(function(message,i) {
@@ -48,7 +47,7 @@ class PatientChat extends Component {
                             </div>
                         </div>
                         <div className="input-group">
-                                <input type="text" className="form-control" placeholder="Message" value={this.state.message} onChange={this.updatePatientMessage}/>
+                                <input type="text" className="form-control" placeholder="@Message" value={this.state.message} onChange={this.updatePatientMessage}/>
                                 <SubmitButton
 																	name={"Send"}
 																	id={"send-msg"}

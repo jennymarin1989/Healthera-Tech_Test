@@ -2,7 +2,6 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 import { shallow } from 'enzyme';
 import SubmitButton from '../../components/SubmitButton';
-import PortalButton from '../../components/styling/portalButton';
 
 describe("SubmitButton", () => {
 	

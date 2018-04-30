@@ -28,11 +28,7 @@ ShallowWrapper {
                 >
                         <div
                                 className="card-title"
-                        >
-                                <h3>
-                                        Messages
-                                </h3>
-                        </div>
+                        />
                         <div
                                 className="messages"
                                 style={
@@ -50,7 +46,7 @@ ShallowWrapper {
                         <input
                                 className="form-control"
                                 onChange={[Function]}
-                                placeholder="Message"
+                                placeholder="@Message"
                                 type="text"
                                 value=""
                         />
@@ -79,11 +75,7 @@ ShallowWrapper {
           >
                     <div
                               className="card-title"
-                    >
-                              <h3>
-                                        Messages
-                              </h3>
-                    </div>
+                    />
                     <div
                               className="messages"
                               style={
@@ -101,7 +93,7 @@ ShallowWrapper {
                     <input
                               className="form-control"
                               onChange={[Function]}
-                              placeholder="Message"
+                              placeholder="@Message"
                               type="text"
                               value=""
                     />
@@ -127,11 +119,7 @@ ShallowWrapper {
 >
               <div
                             className="card-title"
-              >
-                            <h3>
-                                          Messages
-                            </h3>
-              </div>
+              />
               <div
                             className="messages"
                             style={
@@ -149,7 +137,7 @@ ShallowWrapper {
               <input
                             className="form-control"
                             onChange={[Function]}
-                            placeholder="Message"
+                            placeholder="@Message"
                             type="text"
                             value=""
               />
@@ -173,11 +161,7 @@ ShallowWrapper {
               "children": Array [
                 <div
                   className="card-title"
->
-                  <h3>
-                                    Messages
-                  </h3>
-</div>,
+/>,
                 <div
                   className="messages"
                   style={
@@ -198,23 +182,10 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": <h3>
-                    Messages
-</h3>,
                   "className": "card-title",
                 },
                 "ref": null,
-                "rendered": Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": "Messages",
-                  },
-                  "ref": null,
-                  "rendered": "Messages",
-                  "type": "h3",
-                },
+                "rendered": null,
                 "type": "div",
               },
               Object {
@@ -244,7 +215,7 @@ ShallowWrapper {
                 <input
                   className="form-control"
                   onChange={[Function]}
-                  placeholder="Message"
+                  placeholder="@Message"
                   type="text"
                   value=""
 />,
@@ -266,7 +237,7 @@ ShallowWrapper {
                 "props": Object {
                   "className": "form-control",
                   "onChange": [Function],
-                  "placeholder": "Message",
+                  "placeholder": "@Message",
                   "type": "text",
                   "value": "",
                 },
@@ -315,11 +286,7 @@ ShallowWrapper {
                     >
                               <div
                                         className="card-title"
-                              >
-                                        <h3>
-                                                  Messages
-                                        </h3>
-                              </div>
+                              />
                               <div
                                         className="messages"
                                         style={
@@ -337,7 +304,7 @@ ShallowWrapper {
                               <input
                                         className="form-control"
                                         onChange={[Function]}
-                                        placeholder="Message"
+                                        placeholder="@Message"
                                         type="text"
                                         value=""
                               />
@@ -366,11 +333,7 @@ ShallowWrapper {
             >
                         <div
                                     className="card-title"
-                        >
-                                    <h3>
-                                                Messages
-                                    </h3>
-                        </div>
+                        />
                         <div
                                     className="messages"
                                     style={
@@ -388,7 +351,7 @@ ShallowWrapper {
                         <input
                                     className="form-control"
                                     onChange={[Function]}
-                                    placeholder="Message"
+                                    placeholder="@Message"
                                     type="text"
                                     value=""
                         />
@@ -414,11 +377,7 @@ ShallowWrapper {
 >
                 <div
                                 className="card-title"
-                >
-                                <h3>
-                                                Messages
-                                </h3>
-                </div>
+                />
                 <div
                                 className="messages"
                                 style={
@@ -436,7 +395,7 @@ ShallowWrapper {
                 <input
                                 className="form-control"
                                 onChange={[Function]}
-                                placeholder="Message"
+                                placeholder="@Message"
                                 type="text"
                                 value=""
                 />
@@ -460,11 +419,7 @@ ShallowWrapper {
                 "children": Array [
                   <div
                     className="card-title"
->
-                    <h3>
-                                        Messages
-                    </h3>
-</div>,
+/>,
                   <div
                     className="messages"
                     style={
@@ -485,23 +440,10 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": <h3>
-                      Messages
-</h3>,
                     "className": "card-title",
                   },
                   "ref": null,
-                  "rendered": Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": "Messages",
-                    },
-                    "ref": null,
-                    "rendered": "Messages",
-                    "type": "h3",
-                  },
+                  "rendered": null,
                   "type": "div",
                 },
                 Object {
@@ -531,7 +473,7 @@ ShallowWrapper {
                   <input
                     className="form-control"
                     onChange={[Function]}
-                    placeholder="Message"
+                    placeholder="@Message"
                     type="text"
                     value=""
 />,
@@ -553,7 +495,7 @@ ShallowWrapper {
                   "props": Object {
                     "className": "form-control",
                     "onChange": [Function],
-                    "placeholder": "Message",
+                    "placeholder": "@Message",
                     "type": "text",
                     "value": "",
                   },

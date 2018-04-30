@@ -5,7 +5,12 @@ import App from '../../components/App';
 
 describe('App', () => {
 	
-	let app = shallow(<App />);
+	let app;
+
+		beforeEach(()=>{
+			app = shallow(<App />);
+		});
+	 
 
 	it('renders correctly', () => {
 		expect(app).toMatchSnapshot();
@@ -34,12 +39,12 @@ describe('App', () => {
 			expect(app.find('SubmitButton').exists()).toBe(true);
 		});
 
-		it("renders Patients correctly if PatientPortal state updated successfully", () => {
-			app.find('#submitButton').simulate('click');
-			app.instance().handlePortalClicked();
-			expect(app.state('PatientPortal')).toEqual(true);
-			expect(app.find('Patients').exists()).toBe(true);
-		})
+		it("renders Patients correctly", ()=> {
+			app.setState({
+				PatientPortal: true
+			});
+				expect(app.find('Patients').exists()).toBe(true);
+		});
 	});
 
 });

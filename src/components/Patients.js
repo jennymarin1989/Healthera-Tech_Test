@@ -18,15 +18,18 @@ class Patients extends Component {
 	}
 
 	onSelectedPatient = (option) => {
+		console.log(option)
 		this.setState({
 			selectedOption: option,
-		})
+		});
+			console.log(Object.values(option)[0])
 	}
 
 
 	render(){
 
 		let defaultOption = this.state.selectedOption
+		
 		return (
 			<div>
 				<FlexView hAlignContent='left'  style={{ marginLeft: '100px' }}>
@@ -44,7 +47,9 @@ class Patients extends Component {
 								/>
 					</FlexView>		
 					<div style={{marginLeft: "600px", width:'150%', marginTop:'-100px'}}>
-				 		<PatientChat />	
+				 		<PatientChat 
+						//  patient={Object.values(this.state.selectedOption)[0]}
+						 />	
 					</div>	  
 			</div>    
 	)};  
