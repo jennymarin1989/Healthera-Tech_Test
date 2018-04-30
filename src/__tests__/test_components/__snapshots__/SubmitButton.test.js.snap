@@ -23,29 +23,31 @@ ShallowWrapper {
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "class",
+    "nodeType": "host",
     "props": Object {
       "children": undefined,
+      "class": undefined,
       "id": undefined,
       "onClick": undefined,
     },
     "ref": null,
     "rendered": null,
-    "type": [Function],
+    "type": "button",
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "class",
+      "nodeType": "host",
       "props": Object {
         "children": undefined,
+        "class": undefined,
         "id": undefined,
         "onClick": undefined,
       },
       "ref": null,
       "rendered": null,
-      "type": [Function],
+      "type": "button",
     },
   ],
   Symbol(enzyme.__options__): Object {

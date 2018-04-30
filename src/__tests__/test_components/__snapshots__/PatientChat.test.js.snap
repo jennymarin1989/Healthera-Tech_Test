@@ -18,57 +18,52 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": <div
-        className="row"
+        className="form-group has-success has-feedback"
 >
         <div
-                className="col-4"
+                className="col-16"
         >
                 <div
                         className="card"
                 >
                         <div
-                                className="card-body"
+                                className="card-title"
                         >
-                                <div
-                                        className="card-title"
-                                >
-                                        <h3>
-                                                Messages
-                                        </h3>
-                                </div>
-                                <hr />
-                                <div
-                                        className="messages"
-                                        style={
-                                                Object {
-                                                        "backgroundColor": "green",
-                                                        "marginTop": "10px",
-                                                      }
-                                        }
-                                >
-                                        
-                                </div>
+                                <h3>
+                                        Messages
+                                </h3>
                         </div>
                         <div
-                                className="card-footer"
+                                className="messages"
+                                style={
+                                        Object {
+                                                "marginTop": "20px",
+                                              }
+                                }
                         >
-                                <input
-                                        className="form-control"
-                                        onChange={[Function]}
-                                        placeholder="Message"
-                                        type="text"
-                                        value=""
-                                />
-                                <SubmitButton
-                                        handleSubmit={[Function]}
-                                        id="send-msg"
-                                        name="Send"
-                                />
+                                
                         </div>
+                </div>
+                <div
+                        className="input-group"
+                >
+                        <input
+                                className="form-control"
+                                onChange={[Function]}
+                                placeholder="Message"
+                                type="text"
+                                value=""
+                        />
+                        <SubmitButton
+                                handleSubmit={[Function]}
+                                id="send-msg"
+                                name="Send"
+                                newClass="btn btn-success"
+                        />
                 </div>
         </div>
 </div>,
-      "className": "container",
+      "className": "form-horizontal",
     },
     "ref": null,
     "rendered": Object {
@@ -77,13 +72,246 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": <div
-          className="col-4"
+          className="col-16"
 >
           <div
                     className="card"
           >
                     <div
-                              className="card-body"
+                              className="card-title"
+                    >
+                              <h3>
+                                        Messages
+                              </h3>
+                    </div>
+                    <div
+                              className="messages"
+                              style={
+                                        Object {
+                                                  "marginTop": "20px",
+                                                }
+                              }
+                    >
+                              
+                    </div>
+          </div>
+          <div
+                    className="input-group"
+          >
+                    <input
+                              className="form-control"
+                              onChange={[Function]}
+                              placeholder="Message"
+                              type="text"
+                              value=""
+                    />
+                    <SubmitButton
+                              handleSubmit={[Function]}
+                              id="send-msg"
+                              name="Send"
+                              newClass="btn btn-success"
+                    />
+          </div>
+</div>,
+        "className": "form-group has-success has-feedback",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="card"
+>
+              <div
+                            className="card-title"
+              >
+                            <h3>
+                                          Messages
+                            </h3>
+              </div>
+              <div
+                            className="messages"
+                            style={
+                                          Object {
+                                                        "marginTop": "20px",
+                                                      }
+                            }
+              >
+                            
+              </div>
+</div>,
+            <div
+              className="input-group"
+>
+              <input
+                            className="form-control"
+                            onChange={[Function]}
+                            placeholder="Message"
+                            type="text"
+                            value=""
+              />
+              <SubmitButton
+                            handleSubmit={[Function]}
+                            id="send-msg"
+                            name="Send"
+                            newClass="btn btn-success"
+              />
+</div>,
+          ],
+          "className": "col-16",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="card-title"
+>
+                  <h3>
+                                    Messages
+                  </h3>
+</div>,
+                <div
+                  className="messages"
+                  style={
+                                    Object {
+                                                      "marginTop": "20px",
+                                                    }
+                  }
+>
+                  
+</div>,
+              ],
+              "className": "card",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <h3>
+                    Messages
+</h3>,
+                  "className": "card-title",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Messages",
+                  },
+                  "ref": null,
+                  "rendered": "Messages",
+                  "type": "h3",
+                },
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [],
+                  "className": "messages",
+                  "style": Object {
+                    "marginTop": "20px",
+                  },
+                },
+                "ref": null,
+                "rendered": Array [],
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <input
+                  className="form-control"
+                  onChange={[Function]}
+                  placeholder="Message"
+                  type="text"
+                  value=""
+/>,
+                <SubmitButton
+                  handleSubmit={[Function]}
+                  id="send-msg"
+                  name="Send"
+                  newClass="btn btn-success"
+/>,
+              ],
+              "className": "input-group",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "form-control",
+                  "onChange": [Function],
+                  "placeholder": "Message",
+                  "type": "text",
+                  "value": "",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "handleSubmit": [Function],
+                  "id": "send-msg",
+                  "name": "Send",
+                  "newClass": "btn btn-success",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="form-group has-success has-feedback"
+>
+          <div
+                    className="col-16"
+          >
+                    <div
+                              className="card"
                     >
                               <div
                                         className="card-title"
@@ -92,13 +320,11 @@ ShallowWrapper {
                                                   Messages
                                         </h3>
                               </div>
-                              <hr />
                               <div
                                         className="messages"
                                         style={
                                                   Object {
-                                                            "backgroundColor": "green",
-                                                            "marginTop": "10px",
+                                                            "marginTop": "20px",
                                                           }
                                         }
                               >
@@ -106,7 +332,7 @@ ShallowWrapper {
                               </div>
                     </div>
                     <div
-                              className="card-footer"
+                              className="input-group"
                     >
                               <input
                                         className="form-control"
@@ -119,11 +345,12 @@ ShallowWrapper {
                                         handleSubmit={[Function]}
                                         id="send-msg"
                                         name="Send"
+                                        newClass="btn btn-success"
                               />
                     </div>
           </div>
 </div>,
-        "className": "row",
+        "className": "form-horizontal",
       },
       "ref": null,
       "rendered": Object {
@@ -132,10 +359,10 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": <div
-            className="card"
+            className="col-16"
 >
             <div
-                        className="card-body"
+                        className="card"
             >
                         <div
                                     className="card-title"
@@ -144,13 +371,11 @@ ShallowWrapper {
                                                 Messages
                                     </h3>
                         </div>
-                        <hr />
                         <div
                                     className="messages"
                                     style={
                                                 Object {
-                                                            "backgroundColor": "green",
-                                                            "marginTop": "10px",
+                                                            "marginTop": "20px",
                                                           }
                                     }
                         >
@@ -158,7 +383,7 @@ ShallowWrapper {
                         </div>
             </div>
             <div
-                        className="card-footer"
+                        className="input-group"
             >
                         <input
                                     className="form-control"
@@ -171,10 +396,11 @@ ShallowWrapper {
                                     handleSubmit={[Function]}
                                     id="send-msg"
                                     name="Send"
+                                    newClass="btn btn-success"
                         />
             </div>
 </div>,
-          "className": "col-4",
+          "className": "form-group has-success has-feedback",
         },
         "ref": null,
         "rendered": Object {
@@ -184,7 +410,7 @@ ShallowWrapper {
           "props": Object {
             "children": Array [
               <div
-                className="card-body"
+                className="card"
 >
                 <div
                                 className="card-title"
@@ -193,13 +419,11 @@ ShallowWrapper {
                                                 Messages
                                 </h3>
                 </div>
-                <hr />
                 <div
                                 className="messages"
                                 style={
                                                 Object {
-                                                                "backgroundColor": "green",
-                                                                "marginTop": "10px",
+                                                                "marginTop": "20px",
                                                               }
                                 }
                 >
@@ -207,7 +431,7 @@ ShallowWrapper {
                 </div>
 </div>,
               <div
-                className="card-footer"
+                className="input-group"
 >
                 <input
                                 className="form-control"
@@ -220,10 +444,11 @@ ShallowWrapper {
                                 handleSubmit={[Function]}
                                 id="send-msg"
                                 name="Send"
+                                newClass="btn btn-success"
                 />
 </div>,
             ],
-            "className": "card",
+            "className": "col-16",
           },
           "ref": null,
           "rendered": Array [
@@ -240,20 +465,18 @@ ShallowWrapper {
                                         Messages
                     </h3>
 </div>,
-                  <hr />,
                   <div
                     className="messages"
                     style={
                                         Object {
-                                                            "backgroundColor": "green",
-                                                            "marginTop": "10px",
+                                                            "marginTop": "20px",
                                                           }
                     }
 >
                     
 </div>,
                 ],
-                "className": "card-body",
+                "className": "card",
               },
               "ref": null,
               "rendered": Array [
@@ -285,21 +508,11 @@ ShallowWrapper {
                   "instance": null,
                   "key": undefined,
                   "nodeType": "host",
-                  "props": Object {},
-                  "ref": null,
-                  "rendered": null,
-                  "type": "hr",
-                },
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
                   "props": Object {
                     "children": Array [],
                     "className": "messages",
                     "style": Object {
-                      "backgroundColor": "green",
-                      "marginTop": "10px",
+                      "marginTop": "20px",
                     },
                   },
                   "ref": null,
@@ -326,9 +539,10 @@ ShallowWrapper {
                     handleSubmit={[Function]}
                     id="send-msg"
                     name="Send"
+                    newClass="btn btn-success"
 />,
                 ],
-                "className": "card-footer",
+                "className": "input-group",
               },
               "ref": null,
               "rendered": Array [
@@ -355,6 +569,7 @@ ShallowWrapper {
                     "handleSubmit": [Function],
                     "id": "send-msg",
                     "name": "Send",
+                    "newClass": "btn btn-success",
                   },
                   "ref": null,
                   "rendered": null,
@@ -364,369 +579,6 @@ ShallowWrapper {
               "type": "div",
             },
           ],
-          "type": "div",
-        },
-        "type": "div",
-      },
-      "type": "div",
-    },
-    "type": "div",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": <div
-          className="row"
->
-          <div
-                    className="col-4"
-          >
-                    <div
-                              className="card"
-                    >
-                              <div
-                                        className="card-body"
-                              >
-                                        <div
-                                                  className="card-title"
-                                        >
-                                                  <h3>
-                                                            Messages
-                                                  </h3>
-                                        </div>
-                                        <hr />
-                                        <div
-                                                  className="messages"
-                                                  style={
-                                                            Object {
-                                                                      "backgroundColor": "green",
-                                                                      "marginTop": "10px",
-                                                                    }
-                                                  }
-                                        >
-                                                  
-                                        </div>
-                              </div>
-                              <div
-                                        className="card-footer"
-                              >
-                                        <input
-                                                  className="form-control"
-                                                  onChange={[Function]}
-                                                  placeholder="Message"
-                                                  type="text"
-                                                  value=""
-                                        />
-                                        <SubmitButton
-                                                  handleSubmit={[Function]}
-                                                  id="send-msg"
-                                                  name="Send"
-                                        />
-                              </div>
-                    </div>
-          </div>
-</div>,
-        "className": "container",
-      },
-      "ref": null,
-      "rendered": Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": <div
-            className="col-4"
->
-            <div
-                        className="card"
-            >
-                        <div
-                                    className="card-body"
-                        >
-                                    <div
-                                                className="card-title"
-                                    >
-                                                <h3>
-                                                            Messages
-                                                </h3>
-                                    </div>
-                                    <hr />
-                                    <div
-                                                className="messages"
-                                                style={
-                                                            Object {
-                                                                        "backgroundColor": "green",
-                                                                        "marginTop": "10px",
-                                                                      }
-                                                }
-                                    >
-                                                
-                                    </div>
-                        </div>
-                        <div
-                                    className="card-footer"
-                        >
-                                    <input
-                                                className="form-control"
-                                                onChange={[Function]}
-                                                placeholder="Message"
-                                                type="text"
-                                                value=""
-                                    />
-                                    <SubmitButton
-                                                handleSubmit={[Function]}
-                                                id="send-msg"
-                                                name="Send"
-                                    />
-                        </div>
-            </div>
-</div>,
-          "className": "row",
-        },
-        "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": <div
-              className="card"
->
-              <div
-                            className="card-body"
-              >
-                            <div
-                                          className="card-title"
-                            >
-                                          <h3>
-                                                        Messages
-                                          </h3>
-                            </div>
-                            <hr />
-                            <div
-                                          className="messages"
-                                          style={
-                                                        Object {
-                                                                      "backgroundColor": "green",
-                                                                      "marginTop": "10px",
-                                                                    }
-                                          }
-                            >
-                                          
-                            </div>
-              </div>
-              <div
-                            className="card-footer"
-              >
-                            <input
-                                          className="form-control"
-                                          onChange={[Function]}
-                                          placeholder="Message"
-                                          type="text"
-                                          value=""
-                            />
-                            <SubmitButton
-                                          handleSubmit={[Function]}
-                                          id="send-msg"
-                                          name="Send"
-                            />
-              </div>
-</div>,
-            "className": "col-4",
-          },
-          "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": Array [
-                <div
-                  className="card-body"
->
-                  <div
-                                    className="card-title"
-                  >
-                                    <h3>
-                                                      Messages
-                                    </h3>
-                  </div>
-                  <hr />
-                  <div
-                                    className="messages"
-                                    style={
-                                                      Object {
-                                                                        "backgroundColor": "green",
-                                                                        "marginTop": "10px",
-                                                                      }
-                                    }
-                  >
-                                    
-                  </div>
-</div>,
-                <div
-                  className="card-footer"
->
-                  <input
-                                    className="form-control"
-                                    onChange={[Function]}
-                                    placeholder="Message"
-                                    type="text"
-                                    value=""
-                  />
-                  <SubmitButton
-                                    handleSubmit={[Function]}
-                                    id="send-msg"
-                                    name="Send"
-                  />
-</div>,
-              ],
-              "className": "card",
-            },
-            "ref": null,
-            "rendered": Array [
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": Array [
-                    <div
-                      className="card-title"
->
-                      <h3>
-                                            Messages
-                      </h3>
-</div>,
-                    <hr />,
-                    <div
-                      className="messages"
-                      style={
-                                            Object {
-                                                                  "backgroundColor": "green",
-                                                                  "marginTop": "10px",
-                                                                }
-                      }
->
-                      
-</div>,
-                  ],
-                  "className": "card-body",
-                },
-                "ref": null,
-                "rendered": Array [
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": <h3>
-                        Messages
-</h3>,
-                      "className": "card-title",
-                    },
-                    "ref": null,
-                    "rendered": Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": "Messages",
-                      },
-                      "ref": null,
-                      "rendered": "Messages",
-                      "type": "h3",
-                    },
-                    "type": "div",
-                  },
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {},
-                    "ref": null,
-                    "rendered": null,
-                    "type": "hr",
-                  },
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": Array [],
-                      "className": "messages",
-                      "style": Object {
-                        "backgroundColor": "green",
-                        "marginTop": "10px",
-                      },
-                    },
-                    "ref": null,
-                    "rendered": Array [],
-                    "type": "div",
-                  },
-                ],
-                "type": "div",
-              },
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": Array [
-                    <input
-                      className="form-control"
-                      onChange={[Function]}
-                      placeholder="Message"
-                      type="text"
-                      value=""
-/>,
-                    <SubmitButton
-                      handleSubmit={[Function]}
-                      id="send-msg"
-                      name="Send"
-/>,
-                  ],
-                  "className": "card-footer",
-                },
-                "ref": null,
-                "rendered": Array [
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "className": "form-control",
-                      "onChange": [Function],
-                      "placeholder": "Message",
-                      "type": "text",
-                      "value": "",
-                    },
-                    "ref": null,
-                    "rendered": null,
-                    "type": "input",
-                  },
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "function",
-                    "props": Object {
-                      "handleSubmit": [Function],
-                      "id": "send-msg",
-                      "name": "Send",
-                    },
-                    "ref": null,
-                    "rendered": null,
-                    "type": [Function],
-                  },
-                ],
-                "type": "div",
-              },
-            ],
-            "type": "div",
-          },
           "type": "div",
         },
         "type": "div",
