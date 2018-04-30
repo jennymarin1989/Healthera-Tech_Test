@@ -57,9 +57,24 @@ MVP:
 <img src="https://user-images.githubusercontent.com/29259526/39366580-3b2e3358-4a2c-11e8-91fb-36c77216bba9.png" width="500" ="align-center">
 </p>
 
-So, having an idea of my MVP and the requirements, I have started to plan the implementation of the app using react and jest as a testing framework and I looked at some online turorial to get confident with react again.
+So, having an idea of my MVP and the requirements, I have started to plan the implementation of the app using react and jest as a testing framework and I looked at some online turorials to get confident with react again.
 
-At this stage, I've been following TDD and I've created basic tests to render a basic component like header. My idea is to reuse react components to keep my code DRY.
+I've followed Test Driven Development principles, starting with basic tests to render a basic component like header and testing more complicated units of code later on. My idea was to reuse react components to keep my code DRY, therefore, I created parent and child components so I was able to pass parameters from parent to children.
+
+To complete this tech test, it wasn't required the use of database or API's, so to keep patients names I used datda.json file from where I retrieve the patient data when need it
+
+One of the biggest challenges I found in this project was testing event handlers, like onClick, rendering components horizontally and the creation of the chatbox.
+
+## Thoughts
+
+Due to other commitments, I was unable to complete all user stories,if given more time, I would improve the app by:
+
+ - Improving and refactoring unit tests
+ - Adding User interface testing like Cypress
+ - Adding functionality to view verified and unverified patients
+ - Adding functionality to view patient details
+ - Improving app styling, adding avatars
+ - clearing the chatbox when other patient is selected
 
 # Technologies
 
