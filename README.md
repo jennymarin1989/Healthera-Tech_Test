@@ -68,7 +68,7 @@ Screenshot of the app:
 
 
 <p>
-<img src="https://user-images.githubusercontent.com/29259526/39423726-29068c8e-4c6b-11e8-8b83-a961ff8fc4e1.png" width="500" ="align-center">
+<img src="https://user-images.githubusercontent.com/29259526/39423726-29068c8e-4c6b-11e8-8b83-a961ff8fc4e1.png" width="700" ="align-center">
 </p>
 
 
