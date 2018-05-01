@@ -24,7 +24,7 @@ As a pharmacist
 So I can provide the right information about patient's prescription
 I want to be able to **send** a message to the selected patient.
 
-As a pharmacist 
+As a pharmacist
 So I can keep a record of the information given to the patient
 I want to be able to **view** all the messages on the screen
 
@@ -66,17 +66,6 @@ This project was developed in 3 and half days.
 
 Screenshot of the app:
 
-<p>
-<img src="https://user-images.githubusercontent.com/29259526/39423547-503cadc0-4c6a-11e8-8a8b-2b3447532b40.png" width="500" ="align-center">
-</p>
-
-<p>
-<img src="https://user-images.githubusercontent.com/29259526/39423585-85fab1e6-4c6a-11e8-8edb-8d459eeb9bcc.png" width="500" ="align-center">
-</p>
-
-<p>
-<img src="https://user-images.githubusercontent.com/29259526/39423618-b9fd6de4-4c6a-11e8-8e25-64cf2932230e.png" width="500" ="align-center">
-</p>
 
 <p>
 <img src="https://user-images.githubusercontent.com/29259526/39423726-29068c8e-4c6b-11e8-8b83-a961ff8fc4e1.png" width="500" ="align-center">
@@ -88,10 +77,10 @@ Screenshot of the app:
 This instructions will get you a copy of the project up on your local machine for development and testing purposes
 
 ### Installing
- 
+
 Clone the project to your local directory
 - $git clone https://github.com/jennymarin1989/Healthera-Tech_Test.git
-- $cd healthera
+- $cd Healthera-Tech_Test
 - $npm install
 
 ### Testing
