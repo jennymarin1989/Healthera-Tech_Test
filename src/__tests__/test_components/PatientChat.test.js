@@ -38,16 +38,16 @@ describe('PatientChat',() => {
 		});
 	})	
 
-	describe("sendMessage", () => {
-		it("pushes a message into messages state when click send button", () => {
-			let mockMessage = jest.fn();
-			let submitMessage = shallow(<PatientChat sendMessage={mockMessage} />)
-			let text = ["Hello"]
-			submitMessage.find('#send-msg').simulate('click');
-			submitMessage.instance().sendMessage(text);
-			expect(mockMessage).toBeCalled();
-			expect(state('messages')).toContain("Hello");
-		})
-	})
+	// describe("sendMessage", () => {
+	// 	it("pushes a message into messages state when click send button", () => {
+	// 		let mockMessage = jest.fn();
+	// 		let submitMessage = shallow(<PatientChat sendMessage={mockMessage} />)
+	// 		let text = ["Hello"]
+	// 		submitMessage.find('#send-msg').simulate('click');
+	// 		submitMessage.instance().sendMessage(text);
+	// 		expect(mockMessage).toBeCalled();
+	// 		expect(state('messages')).toContain("Hello");
+	// 	})
+	// })
 
 })
