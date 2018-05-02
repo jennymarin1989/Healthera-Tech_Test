@@ -5,20 +5,24 @@ import SubmitButton from '../../components/SubmitButton';
 
 describe("SubmitButton", () => {
 	
-	let submit = shallow(<SubmitButton />);
+	let submit;
+
+		beforeEach(()=>{
+			submit = shallow(<SubmitButton />);
+		});
 
 	it("renders correctly", () => {
 		expect(submit).toMatchSnapshot();
 	});
 
-	// describe('When a user clicks a button', () => {
-	// 	it('should call the handleDataSumittedButton function', ()=>{
-	// 		let mockhandlePortalClicked = jest.fn()
-	// 		let submit2 = shallow(<SubmitButton handlePortalClicked = {mockhandlePortalClicked}/>);
-	// 		submit.find('#submitButton').simulate('click', 'using prototype');
-	// 		expect(mockhandlePortalClicked).toBeCalled();
-	// 	})
-	// });
+	describe('When a user clicks a button', () => {
+		it('should call the handleDataSumittedButton function', ()=>{
+			let mockhandlePortalClicked = jest.fn()
+			let submit2 = shallow(<SubmitButton handlePortalClicked = {mockhandlePortalClicked}/>);
+			submit.find('#submitButton').simulate('click', 'using prototype');
+			expect(mockhandlePortalClicked).toBeCalled();
+		})
+	});
 
 	describe("renders component correctly", () => {
 		it("renders PortalButton component correctly", () => {

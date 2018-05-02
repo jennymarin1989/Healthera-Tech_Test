@@ -7,7 +7,11 @@ import SubmitButton from '../../components/SubmitButton';
 
 describe('PatientChat',() => {
 
-		let chat = shallow(<PatientChat />)
+		let chat;
+
+		beforeEach(()=>{
+			chat = shallow(<PatientChat />);
+		});
 	
 		it("renders correctly", () => {
 			expect(chat).toMatchSnapshot();
@@ -27,23 +31,23 @@ describe('PatientChat',() => {
 		});
 	});	
 
-	// describe("updates message state succesfully", () =>{
-	// 	it("updates state of message with target event successfully", () => {
-	// 		chat.find('message').simulate('change', {target: { value: "My message"}})
-	// 		expect(chat.state('message')).toEqual("My message");
-	// 	});
-	// })	
+	describe("updates message state succesfully", () =>{
+		it("updates state of message with target event successfully", () => {
+			chat.find('.form-control').simulate('change', {target: { value: "My message"}})
+			expect(chat.state('message')).toEqual("My message");
+		});
+	})	
 
-	// describe("sendMessage", () => {
-	// 	it("pushes a message into messages state when click send button", () => {
-	// 		let mockMessage = jest.fn();
-	// 		let submitMessage = shallow(<SubmitButton sendMessage={mockMessage} />)
-	// 		let text = ["Hello"]
-	// 		submitMessage.find('.send-msg').simulate('click');
-	// 		submitMessage.instance().sendMessage(text);
-	// 		expect(mockMessage).toBeCalled();
-	// 		expect(state('messages')).toContain("Hello");
-	// 	})
-	// })
+	describe("sendMessage", () => {
+		it("pushes a message into messages state when click send button", () => {
+			let mockMessage = jest.fn();
+			let submitMessage = shallow(<PatientChat sendMessage={mockMessage} />)
+			let text = ["Hello"]
+			submitMessage.find('#send-msg').simulate('click');
+			submitMessage.instance().sendMessage(text);
+			expect(mockMessage).toBeCalled();
+			expect(state('messages')).toContain("Hello");
+		})
+	})
 
 })
