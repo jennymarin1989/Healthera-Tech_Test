@@ -105,9 +105,9 @@ Due to other commitments, I was unable to complete all user stories,if given mor
  - Improving app styling, adding avatars
  - clearing the chatbox when other patient is selected
 
-One of the biggest challenges I found in this project was testing event handlers, like onClick or onChange, I wasn't able to simulate the event in my test due to a node error, I spent time reserching about it. If given more time I would find the solution to pass the test.
-Rendering components horizontally and the creation of the chatbox was also a challenge, I used Flexview package and bootstrap for it.
+One of the biggest challenges I found in this project was testing event handlers, like onClick or onChange, I wasn't able to simulate the event in my test due to a node error, I spent time reserching about it. If given more time I would find the solution to pass the test. Failing test were commented out but I'll keep working on it to identify the cause of the problem.
 
+Rendering components horizontally and the creation of the chatbox was also a challenge, I used Flexview package and bootstrap to render components and to create the chat box.
 
 # Technologies
 
