@@ -22,7 +22,7 @@ describe("SubmitButton", () => {
 			let mockhandlePortalClicked = sinon.spy();
 			console.log(mockhandlePortalClicked)
 			let submit2 = shallow(<App handlePortalClicked = {mockhandlePortalClicked}/>);
-			console.log(submit2.find('SubmitButton').simulate('click'));
+			submit2.find('SubmitButton').simulate('click');
 			expect(mockhandlePortalClicked.calledOnce);
 		})
 	});// Pass the test but not sure if is a false positive(need to research more about sinon)
