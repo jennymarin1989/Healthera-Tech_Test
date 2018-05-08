@@ -19,9 +19,8 @@ describe("SubmitButton", () => {
 
 	describe('When a user clicks a button', () => {
 		it('should call the handleDataSumittedButton function', ()=>{
-			let mockhandlePortalClicked = sinon.spy();
-			console.log(mockhandlePortalClicked)
-			let submit2 = shallow(<App handlePortalClicked = {mockhandlePortalClicked}/>);
+			let mockhandlePortalClicked = jest.fn();
+			let submit2 = mount(<App handlePortalClicked = {mockhandlePortalClicked}/>);
 			submit2.find('SubmitButton').simulate('click');
 			expect(mockhandlePortalClicked.calledOnce);
 		})

@@ -1,6 +1,8 @@
 import React from 'react';
-import { shallow } from 'enzyme';
+import { shallow, mount } from 'enzyme';
+import sinon from 'sinon';
 import App from '../../components/App';
+import SubmitButton from '../../components/SubmitButton';
 
 
 describe('App', () => {
@@ -51,16 +53,17 @@ describe('App', () => {
 		});
 	});
 
-	// describe("handleportalClicked function when click button", ()=>{
-	// 	it("invokes the function when click patients button", () => {
-	// 		let mockprops=jest.fn()
-	// 		let app2 = shallow(<App handlePortalClicked={mockprops} />);
-	// 		app2.instance().handlePortalClicked = jest.fn();
-	// 		let { handlePortalClicked } = app2.instance();
-	// 		expect(handlePortalClicked).toHaveBeenCalledTimes(0);
-	// 		app.find('.submitButton').simulate('click'); 
-	// 		expect(handleSubmit).toHaveBeenCalledTimes(1);
-	// 	})
-	// })
+	describe("handleportalClicked function when click button", ()=>{
+		it("invokes the function when click patients button", () => {
+			let onClickSpy=sinon.spy()
+			let app2 = mount(<App handlePortalClicked={onClickSpy} />);
+			console.log(app2.state('PatientPortal'))
+			app2.find('SubmitButton').last().simulate('click'); 
+			console.log(app2.state('PatientPortal'))
+			expect(onClickSpy.called).toBe(true);
+
+			 // the state of PortalPatient changes to true but the assertions equals to undefined
+		})
+	})
 
 });

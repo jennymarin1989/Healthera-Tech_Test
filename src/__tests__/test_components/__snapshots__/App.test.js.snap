@@ -33,10 +33,10 @@ ShallowWrapper {
                         id="homepage"
                 />
                 <SubmitButton
-                        handleSubmit={[Function]}
                         id="submitButton"
                         name="Patients"
                         newClass="btn btn-success"
+                        onClick={[Function]}
                 />
         </Col>
 </Row>,
@@ -61,10 +61,10 @@ ShallowWrapper {
                     id="homepage"
           />
           <SubmitButton
-                    handleSubmit={[Function]}
                     id="submitButton"
                     name="Patients"
                     newClass="btn btn-success"
+                    onClick={[Function]}
           />
 </Col>,
         "componentClass": "div",
@@ -82,10 +82,10 @@ ShallowWrapper {
               id="homepage"
 />,
             <SubmitButton
-              handleSubmit={[Function]}
               id="submitButton"
               name="Patients"
               newClass="btn btn-success"
+              onClick={[Function]}
 />,
             null,
           ],
@@ -112,10 +112,10 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "function",
             "props": Object {
-              "handleSubmit": [Function],
               "id": "submitButton",
               "name": "Patients",
               "newClass": "btn btn-success",
+              "onClick": [Function],
             },
             "ref": null,
             "rendered": null,
@@ -151,10 +151,10 @@ ShallowWrapper {
                               id="homepage"
                     />
                     <SubmitButton
-                              handleSubmit={[Function]}
                               id="submitButton"
                               name="Patients"
                               newClass="btn btn-success"
+                              onClick={[Function]}
                     />
           </Col>
 </Row>,
@@ -179,10 +179,10 @@ ShallowWrapper {
                         id="homepage"
             />
             <SubmitButton
-                        handleSubmit={[Function]}
                         id="submitButton"
                         name="Patients"
                         newClass="btn btn-success"
+                        onClick={[Function]}
             />
 </Col>,
           "componentClass": "div",
@@ -200,10 +200,10 @@ ShallowWrapper {
                 id="homepage"
 />,
               <SubmitButton
-                handleSubmit={[Function]}
                 id="submitButton"
                 name="Patients"
                 newClass="btn btn-success"
+                onClick={[Function]}
 />,
               null,
             ],
@@ -230,10 +230,10 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "function",
               "props": Object {
-                "handleSubmit": [Function],
                 "id": "submitButton",
                 "name": "Patients",
                 "newClass": "btn btn-success",
+                "onClick": [Function],
               },
               "ref": null,
               "rendered": null,

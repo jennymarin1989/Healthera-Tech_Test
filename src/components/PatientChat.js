@@ -54,7 +54,7 @@ render(props){
                     name={"Send"}
                     id={"send-msg"}
                     newClass={"btn btn-success"}
-                    handleSubmit = {this.sendMessage}
+                    onClick = {this.sendMessage}
                   />
               </div>
           </div>
